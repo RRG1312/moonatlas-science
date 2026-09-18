@@ -71,7 +71,7 @@
       "checkpoint": "WAC_ni_lfm_ps8_lora_s46.ckpt",
       "modelRevision": "f09ebeae2099c28f09bf4060f56d3e327a6192de",
       "referenceSource": "robbins-2019",
-      "processingVersion": "science-0.3.0"
+      "processingVersion": "science-0.3.1"
     }
   }
 ]

@@ -178,13 +178,13 @@ moonatlas-science smoke               # add --skip-downloads once the assets are
 ```
 
 One held-out test sample per task, end to end — download, inference, normalization, mosaic, catalogue, manifest,
-validation, sanity report. The build lands in `data/build/science-0.3.0/`, figures in `data/artifacts/`, and each
+validation, sanity report. The build lands in `data/build/science-0.3.1/`, figures in `data/artifacts/`, and each
 step prints its own duration.
 
 ## Validation
 
 ```bash
-moonatlas-science validate --root data/build/science-0.3.0            # a build you ran (full scope)
+moonatlas-science validate --root data/build/science-0.3.1            # a build you ran (full scope)
 moonatlas-science validate --root examples/science-smoke --scope published
 ```
 

@@ -110,7 +110,9 @@ formula id.
 2. One concern per pull request; never mix a science change with a refactor.
 3. Fill in the template honestly — especially *does this change raw model output?*
 4. CI (`pytest` + `ruff` on Python 3.11 and 3.12) must pass.
-5. Commits use `type(scope): description`, imperative mood. Please do not add AI co-authorship trailers.
+5. A merge does not publish anything by itself: maintainers cut versioned releases separately
+   (`docs/architecture/releasing.md`), and applications choose when to adopt them.
+6. Commits use `type(scope): description`, imperative mood. Please do not add AI co-authorship trailers.
 
 ## Review expectations
 

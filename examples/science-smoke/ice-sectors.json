@@ -457,7 +457,7 @@
       "checkpoint": "ni_lfm_ps8_all_modalities_s42.ckpt",
       "modelRevision": "fb0510d0d676ae7bfae9acd88219b05449c769ee",
       "referenceSource": "coyan-2025",
-      "processingVersion": "science-0.3.0"
+      "processingVersion": "science-0.3.1"
     }
   }
 ]

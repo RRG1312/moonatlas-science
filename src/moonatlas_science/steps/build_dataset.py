@@ -8,7 +8,7 @@ Production asset policy (docs/architecture/dataset-publishing.md), applied here 
 Then the manifest is rebuilt with `dataMode: real`, checksums are recomputed over the published files, and the dataset
 is validated. Nothing is fabricated or recomputed from the model: this is packaging, not science.
 
-Usage: MOONATLAS_BUILD_DIR=data/build/science-0.3.0-complete python -m moonatlas_science.steps.build_dataset
+Usage: MOONATLAS_BUILD_DIR=data/build/science-0.3.1-complete python -m moonatlas_science.steps.build_dataset
 """
 
 from __future__ import annotations

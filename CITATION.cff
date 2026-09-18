@@ -29,7 +29,7 @@ keywords:
   - ice prospectivity
   - irregular mare patches
 license: Apache-2.0
-version: "0.3.0"
+version: "0.3.1"
 # No DOI is claimed for this software. If it is ever archived (for example on
 # Zenodo), add the DOI here and in README § Citation; never invent one.
 

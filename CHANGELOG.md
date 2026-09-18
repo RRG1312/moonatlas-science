@@ -6,6 +6,21 @@ All notable changes to MOONATLAS Science. Versions are `processingVersion` value
 
 ## [Unreleased]
 
+### science-0.3.1 — MOONATLAS re-issue, no new inference
+
+A metadata release after the project was renamed MOONMIND → MOONATLAS. No inference was re-run: the example build was
+re-normalized, catalogued and manifested from the same raw crater, ice and IMP artifacts as `science-0.3.0`.
+
+- `examples/science-smoke` rebuilt by the pipeline (`normalize` × 3, `mosaic`, `catalog`, `manifest --scope smoke`,
+  `validate`), then `schemas/contract-v2.json` and `examples/conformance/geometry.json` regenerated from it.
+- Value-level comparison with the `science-0.3.0` example: **0 scientific differences** — crater predictions,
+  ice raw values, IMP masks, coordinates and reference values are identical. All rasters are byte-identical.
+- What changed: `processingVersion` (8 fields), `generatedAt`, one generated ice description (the former name), and
+  the six checksums of the files that changed. Every checksum was verified against the file it describes.
+- `craters.json` is now serialized compactly. The `science-0.3.0` example had been built before the pipeline switched
+  to compact output, so it was not byte-reproducible from this repository; the decoded values are identical.
+- Conformance pixel centres, containment cases and raster encodings are unchanged.
+
 ## [science-0.3.0] — 2026-09-18 — first public release
 
 First public release of the pipeline that produced `science-0.3.0`. The repository history starts here; everything

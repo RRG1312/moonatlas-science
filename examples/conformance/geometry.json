@@ -1,7 +1,7 @@
 {
   "generatedFrom": {
     "example": "examples/science-smoke",
-    "processingVersion": "science-0.3.0"
+    "processingVersion": "science-0.3.1"
   },
   "note": "Expected values produced by moonatlas_science.projection from each object's own published projection and grid. A consumer that reimplements the geometry must reproduce them.",
   "pixelCentres": [

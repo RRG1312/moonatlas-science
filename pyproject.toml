@@ -4,7 +4,7 @@ build-backend = "hatchling.build"
 
 [project]
 name = "moonatlas-science"
-version = "0.3.0"
+version = "0.3.1"
 description = "Reproducible pipeline for running published NASA-IBM Lunar Foundation Model checkpoints and normalizing their outputs"
 readme = "README.md"
 license = { file = "LICENSE" }

@@ -76,7 +76,7 @@
       "checkpoint": "ni_lfm_ps8_frozen_s44.ckpt",
       "modelRevision": "10a09ffae35ef5712c40c2a1fc41ec82d4881ea6",
       "referenceSource": "hargitai-2025",
-      "processingVersion": "science-0.3.0"
+      "processingVersion": "science-0.3.1"
     }
   }
 ]

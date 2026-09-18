@@ -1,6 +1,6 @@
 {
   "schemaVersion": "2",
-  "processingVersion": "science-0.3.0",
+  "processingVersion": "science-0.3.1",
   "files": {
     "manifest.json": "build identity: processingVersion, schemaVersion, dataMode, generatedAt, counts",
     "processing-manifest.json": "sha256 and size of every published file, plus the samples each task processed",

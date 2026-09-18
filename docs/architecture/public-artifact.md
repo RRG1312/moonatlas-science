@@ -30,7 +30,8 @@ All third-party-derived content is covered by SomBench's CC BY 4.0 licence and m
 | Interface | The data contract and `schemas/` | Private to the application |
 
 An application consumes the public artifact exactly as any other consumer would: by downloading a release and
-verifying its sha256. Nothing application-specific belongs in the artifact, and nothing in the artifact is needed
+verifying its sha256. It decides when to move to a new release; nothing in this repository updates, deploys or
+pushes to an application, so merging a pull request here never changes a running website. Nothing application-specific belongs in the artifact, and nothing in the artifact is needed
 to reconstruct an application's interface — the interface is not data.
 
 ## Release checklist

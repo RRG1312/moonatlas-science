@@ -12,7 +12,7 @@ body:
       label: What happened
       description: What you ran and what it did. Include the exact command and the error, trimmed.
       placeholder: |
-        $ python scripts/build_real.py --out build/science-0.3.0
+        $ moonatlas-science validate --root data/build/science-0.3.1
         ...
     validations:
       required: true

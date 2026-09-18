@@ -41,7 +41,7 @@
       "checkpoint": "WAC_ni_lfm_ps8_lora_s46.ckpt",
       "modelRevision": "f09ebeae2099c28f09bf4060f56d3e327a6192de",
       "referenceSource": "robbins-2019",
-      "processingVersion": "science-0.3.0"
+      "processingVersion": "science-0.3.1"
     },
     "cataloguedAt": "2026-09-17"
   },
@@ -75,7 +75,7 @@
         "origin": "source_observation"
       }
     ],
-    "description": "The NASA-IBM LFM ice prospectivity model predicts a raw peak prospectivity of 1.016 (raw P90 0.838) against a 0\u20131 target scale for this polar patch. It is an unconstrained regression prediction, not a measurement or probability of ice. The marked location is a MOONMIND edge-safe anchor, not the model peak.",
+    "description": "The NASA-IBM LFM ice prospectivity model predicts a raw peak prospectivity of 1.016 (raw P90 0.838) against a 0\u20131 target scale for this polar patch. It is an unconstrained regression prediction, not a measurement or probability of ice. The marked location is a MOONATLAS edge-safe anchor, not the model peak.",
     "score": {
       "value": 83.8,
       "formula": "ice-p90-bounded-v2"
@@ -89,7 +89,7 @@
       "checkpoint": "ni_lfm_ps8_all_modalities_s42.ckpt",
       "modelRevision": "fb0510d0d676ae7bfae9acd88219b05449c769ee",
       "referenceSource": "coyan-2025",
-      "processingVersion": "science-0.3.0"
+      "processingVersion": "science-0.3.1"
     },
     "cataloguedAt": "2026-09-17"
   },
@@ -132,7 +132,7 @@
       "checkpoint": "ni_lfm_ps8_frozen_s44.ckpt",
       "modelRevision": "10a09ffae35ef5712c40c2a1fc41ec82d4881ea6",
       "referenceSource": "hargitai-2025",
-      "processingVersion": "science-0.3.0"
+      "processingVersion": "science-0.3.1"
     },
     "cataloguedAt": "2026-09-17"
   }

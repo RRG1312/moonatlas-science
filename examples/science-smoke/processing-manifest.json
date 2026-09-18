@@ -1,8 +1,8 @@
 {
-  "processingVersion": "science-0.3.0",
+  "processingVersion": "science-0.3.1",
   "schemaVersion": "2",
   "scope": "smoke",
-  "generatedAt": "2026-09-17T19:14:28Z",
+  "generatedAt": "2026-09-18T16:50:57Z",
   "upstream": {
     "url": "https://github.com/NASA-IMPACT/NASA-IBM-Lunar-Foundation-Model",
     "commit": "56b09e146fde2dd006791dcc728f30cc12d6a6b7",
@@ -115,16 +115,16 @@
     ]
   },
   "checksums": {
-    "crater-regions.json": "3ba90a5bc70ef95dd71ebcbecbc47ffa56a60d768b469a9253541b161f82fd88",
+    "crater-regions.json": "4827bc72e1ef52d19a11e54263823b7340058652e0649b76793a0faf47a53747",
     "crater-tiles/wac-m1174144247ce-r5360-c480.json": "7fc066de675a9b9a439809b812be0ef4375be48f4b86392ea65a7b01de3d5845",
-    "craters.json": "cf35883f72368786b8ec6f71babdedffe829a02becb0abbcb8d902d41e3220da",
-    "discoveries.json": "367d1a45d8f827af9e7afc1c0e03bd502af0d7449de66843d3fa8e041a602f39",
+    "craters.json": "94e36b9a28589e8cdd755bead9de0f79802575e9b61f29d6245712cd3205e6ce",
+    "discoveries.json": "40cd4ac91ddc25a27aef86a6cfef3202ad2255faeeeff6ccd27001349d058f96",
     "global-stats.json": "6613bab915dc6a0baff81ebf4e094081fce49cb0e1d0bd77bdf208cd0fe06c8c",
     "ice-mosaics.json": "0da896abce5bb396f1aecafc57120e02e5a88b72248b2a01265ca7e3bce92b8a",
-    "ice-sectors.json": "afe4eefa3c3428e9874f25f00973f333b329fe8335e6eb522d6aa7bd256da950",
+    "ice-sectors.json": "8573f2208fe73c55373223f4c153c35238994acacc75267e933ea6826aee9e39",
     "imp-observation-groups.json": "5bb7a6afb4c81d6c9ab9899c0f26504cda7e468d986219a6c97cc8b89bf2c1c7",
-    "imp-regions.json": "00cff3bb187fdff047a39a64bcdb6fdbdde8c2dfb59ffda60c27b8fbce8e1182",
-    "manifest.json": "e33281b00c392e663d4d7432e8ee201cfabcb794faa593203df4c59acb6d87a4",
+    "imp-regions.json": "2fe1038519a6efc710cd2b3571ed24d9545dd04dc2468b3ad2a1b8ccfea4bff8",
+    "manifest.json": "21a26c245e328cd4413ee7bfc0898ce1f0cad118d260b244a775e76a8747ae95",
     "overlays/ice/ice-mosaic-s-raw.webp": "dbedcc288a5998f77b80b6838f1ee793c12c68b04a574e3f5553e8c4874d072f",
     "overlays/ice/ice-mosaic-s-reference-raw.webp": "1e2a24431f0e98ee07b4cc1b67f004350d0e0650ee0294670c967ecd31c250d5",
     "overlays/ice/ice-mosaic-s-reference.webp": "092faef6f603e3322452964281ee9cb4995e8860521548cc26ec31801a90d9fe",

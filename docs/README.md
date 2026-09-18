@@ -4,6 +4,7 @@
 |------|---------------|
 | [architecture/pipeline.md](architecture/pipeline.md) | What each stage does, what it writes, and why steps are separate processes |
 | [architecture/dataset-publishing.md](architecture/dataset-publishing.md) | How a validated build becomes a published dataset and a reproducible artifact |
+| [architecture/releasing.md](architecture/releasing.md) | When a release is needed, how it is cut, and why a merge alone changes no application |
 | [architecture/public-artifact.md](architecture/public-artifact.md) | What a public science artifact contains, and how it differs from application data |
 | [methodology/crater.md](methodology/crater.md) · [ice.md](methodology/ice.md) · [imp.md](methodology/imp.md) | Per task: inference, postprocessing, normalization, what the numbers mean |
 | [methodology/scoring.md](methodology/scoring.md) | The MOONATLAS derived metrics and their versioned formulas |

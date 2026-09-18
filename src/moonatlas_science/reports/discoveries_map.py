@@ -4,7 +4,7 @@ Shows every discovery by type, marks held-out test (featured) vs in-sample, and 
 (WAC tile centers, ice patch centers, IMP sites) so geographic diversity can be judged against what the data contains.
 Output: data/artifacts/sanity/<build>/discoveries-map.png
 
-Usage: MOONATLAS_BUILD_DIR=data/build/science-0.3.0-complete python -m moonatlas_science.reports.discoveries_map
+Usage: MOONATLAS_BUILD_DIR=data/build/science-0.3.1-complete python -m moonatlas_science.reports.discoveries_map
 """
 
 from __future__ import annotations

@@ -28,8 +28,10 @@ every source with its pinned revision. See [docs/provenance/redistribution.md](.
 
 ### Generated text
 
-Discovery descriptions are generated text and part of the checksummed output of `science-0.3.0`. One of them still
-uses the project's former name; like any output change, it updates only with a new `processingVersion`.
+Discovery descriptions are generated text and part of the checksummed output. `science-0.3.1` re-issued the
+`science-0.3.0` example under the MOONATLAS name, rebuilt by this repository's pipeline from the same inference
+artifacts: the generated wording, the version string and the checksums changed, and `craters.json` is now serialized
+compactly, as this pipeline writes it. Every scientific value is identical (see `CHANGELOG.md`).
 
 ## conformance
 
