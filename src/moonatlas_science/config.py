@@ -11,7 +11,7 @@ from dataclasses import dataclass
 from pathlib import Path
 
 # Bump when normalization, geolocation or asset encoding changes (docs/provenance/data-contract.md › Versioning).
-PROCESSING_VERSION = "science-0.3.0"
+PROCESSING_VERSION = "science-0.3.1"
 SCHEMA_VERSION = "2"
 
 def _default_root() -> Path:
