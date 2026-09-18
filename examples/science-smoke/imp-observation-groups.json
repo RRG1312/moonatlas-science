@@ -1,0 +1,18 @@
+[
+  {
+    "id": "imp-group-t1980",
+    "latitude": 4.342116,
+    "longitude": 33.699627,
+    "sourceTarget": "1980",
+    "radiusM": 181.0,
+    "observationIds": [
+      "imp-m1126915118re-t1980-i1980"
+    ],
+    "splits": {
+      "train": 0,
+      "validation": 0,
+      "test": 1,
+      "external": 0
+    }
+  }
+]

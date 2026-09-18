@@ -1,0 +1,156 @@
+[
+  {
+    "id": "lfm-backbone",
+    "kind": "model",
+    "name": "NASA-IBM Lunar Foundation Model",
+    "organization": "NASA-IBM AI4Science",
+    "url": "https://huggingface.co/nasa-ibm-ai4science/NASA-IBM-Lunar-Foundation-Model",
+    "license": "Apache-2.0",
+    "citation": "Fraccaro, P. et al. (2026). Multimodal-Multiresolution Foundation Model for Lunar Remote Sensing. NASA-IBM AI4Science.",
+    "revision": "f29ade2b0b7273babb1ff581723816f99cb00996",
+    "modified": false
+  },
+  {
+    "id": "lfm-crater-detection",
+    "kind": "model",
+    "name": "NASA-IBM LFM \u2014 Crater Detection",
+    "organization": "NASA-IBM AI4Science",
+    "url": "https://huggingface.co/nasa-ibm-ai4science/Crater-Detection-NASA-IBM-Lunar-Foundation-Model",
+    "license": "Apache-2.0",
+    "citation": "Fraccaro, P. et al. (2026). Multimodal-Multiresolution Foundation Model for Lunar Remote Sensing. NASA-IBM AI4Science.",
+    "revision": "f09ebeae2099c28f09bf4060f56d3e327a6192de",
+    "modified": false
+  },
+  {
+    "id": "lfm-ice-prospectivity",
+    "kind": "model",
+    "name": "NASA-IBM LFM \u2014 Polar Ice Prospectivity",
+    "organization": "NASA-IBM AI4Science",
+    "url": "https://huggingface.co/nasa-ibm-ai4science/Ice-Prospectivity-NASA-IBM-Lunar-Foundation-Model",
+    "license": "Apache-2.0",
+    "citation": "Fraccaro, P. et al. (2026). Multimodal-Multiresolution Foundation Model for Lunar Remote Sensing. NASA-IBM AI4Science.",
+    "revision": "fb0510d0d676ae7bfae9acd88219b05449c769ee",
+    "modified": false
+  },
+  {
+    "id": "lfm-imp-segmentation",
+    "kind": "model",
+    "name": "NASA-IBM LFM \u2014 Irregular Mare Patch Segmentation",
+    "organization": "NASA-IBM AI4Science",
+    "url": "https://huggingface.co/nasa-ibm-ai4science/IMP-Segmentation-NASA-IBM-Lunar-Foundation-Model",
+    "license": "Apache-2.0",
+    "citation": "Fraccaro, P. et al. (2026). Multimodal-Multiresolution Foundation Model for Lunar Remote Sensing. NASA-IBM AI4Science.",
+    "revision": "10a09ffae35ef5712c40c2a1fc41ec82d4881ea6",
+    "modified": false
+  },
+  {
+    "id": "sombench-wac-crater-detection",
+    "kind": "dataset",
+    "name": "SomBench: Robbins Crater Detection (WAC)",
+    "organization": "NASA-IBM AI4Science",
+    "url": "https://huggingface.co/datasets/nasa-ibm-ai4science/Sombench-WAC-Crater-Detection",
+    "license": "CC-BY-4.0",
+    "citation": "Patil, H. et al. (2026). SomBench: Benchmark Dataset for Advancing Machine Learning in Lunar Science. NASA-IBM AI4Science.",
+    "revision": "20f800becb64a0c7ad314652a683f97f0281fe67",
+    "modified": true
+  },
+  {
+    "id": "sombench-ice-prospectivity-regression",
+    "kind": "dataset",
+    "name": "SomBench: Polar Ice Prospectivity Regression",
+    "organization": "NASA-IBM AI4Science",
+    "url": "https://huggingface.co/datasets/nasa-ibm-ai4science/Sombench-Ice-Prospectivity-Regression",
+    "license": "CC-BY-4.0",
+    "citation": "Patil, H. et al. (2026). SomBench: Benchmark Dataset for Advancing Machine Learning in Lunar Science. NASA-IBM AI4Science.",
+    "revision": "78040503ceaa68107829f48114774112e8ee940d",
+    "modified": true
+  },
+  {
+    "id": "sombench-imp-segmentation",
+    "kind": "dataset",
+    "name": "SomBench: Irregular Mare Patch Segmentation",
+    "organization": "NASA-IBM AI4Science",
+    "url": "https://huggingface.co/datasets/nasa-ibm-ai4science/Sombench-IMP-Segmentation",
+    "license": "CC-BY-4.0",
+    "citation": "Patil, H. et al. (2026). SomBench: Benchmark Dataset for Advancing Machine Learning in Lunar Science. NASA-IBM AI4Science.",
+    "revision": "1418851011f4b1d4fd8140a8d765b17fda86ebc0",
+    "modified": true
+  },
+  {
+    "id": "robbins-2019",
+    "kind": "reference",
+    "name": "Robbins (2019) global lunar crater catalog",
+    "organization": "Robbins, S. J.",
+    "url": "https://doi.org/10.1029/2018JE005592",
+    "license": "Publication",
+    "citation": "Robbins, S. J. (2019). A New Global Database of Lunar Impact Craters >1\u20132 km. JGR Planets, 124(4), 871\u2013892.",
+    "revision": null,
+    "modified": false
+  },
+  {
+    "id": "coyan-2025",
+    "kind": "reference",
+    "name": "Coyan et al. (2025) polar ice prospectivity map",
+    "organization": "Coyan et al.",
+    "url": "https://huggingface.co/datasets/nasa-ibm-ai4science/Sombench-Ice-Prospectivity-Regression",
+    "license": "Publication",
+    "citation": "Coyan et al. (2025), knowledge-driven fuzzy-overlay polar ice prospectivity map, as packaged in SomBench.",
+    "revision": null,
+    "modified": false
+  },
+  {
+    "id": "hargitai-2025",
+    "kind": "reference",
+    "name": "Hargitai et al. (2025) irregular mare patch annotations",
+    "organization": "Hargitai et al.",
+    "url": "https://huggingface.co/datasets/nasa-ibm-ai4science/Sombench-IMP-Segmentation",
+    "license": "Publication",
+    "citation": "Hargitai et al. (2025), irregular mare patch polygon annotations, as packaged in SomBench.",
+    "revision": null,
+    "modified": false
+  },
+  {
+    "id": "nasa-svs-cgi-moon-kit",
+    "kind": "imagery",
+    "name": "CGI Moon Kit (LROC color map)",
+    "organization": "NASA Scientific Visualization Studio",
+    "url": "https://svs.gsfc.nasa.gov/4720",
+    "license": "NASA media guidelines",
+    "citation": "NASA's Scientific Visualization Studio, CGI Moon Kit (LRO LROC and LOLA data).",
+    "revision": null,
+    "modified": true
+  },
+  {
+    "id": "lro-lroc",
+    "kind": "instrument",
+    "name": "Lunar Reconnaissance Orbiter Camera (LROC)",
+    "organization": "NASA / Arizona State University",
+    "url": "https://lroc.im-ldi.com",
+    "license": "Public data",
+    "citation": "LRO LROC WAC and NAC imagery.",
+    "revision": null,
+    "modified": false
+  },
+  {
+    "id": "lro-lola",
+    "kind": "instrument",
+    "name": "Lunar Orbiter Laser Altimeter (LOLA)",
+    "organization": "NASA Goddard Space Flight Center",
+    "url": "https://science.nasa.gov/mission/lro/",
+    "license": "Public data",
+    "citation": "LRO LOLA topography (slope, aspect, curvature).",
+    "revision": null,
+    "modified": false
+  },
+  {
+    "id": "lro-diviner",
+    "kind": "instrument",
+    "name": "Diviner Lunar Radiometer Experiment",
+    "organization": "NASA / UCLA",
+    "url": "https://www.diviner.ucla.edu",
+    "license": "Public data",
+    "citation": "LRO Diviner thermal observations (maximum temperature, ice stability).",
+    "revision": null,
+    "modified": false
+  }
+]

@@ -1,0 +1,75 @@
+name: Scientific / data issue
+description: A published value, coordinate, footprint, metric or wording looks wrong
+labels: ["science"]
+body:
+  - type: markdown
+    attributes:
+      value: |
+        Use this for anything about correctness of the science: a value, a georeference, a metric, a split, a
+        provenance field, or wording that overstates what the model produced.
+  - type: dropdown
+    id: area
+    attributes:
+      label: Area
+      options:
+        - Crater detection (WAC)
+        - Polar ice prospectivity
+        - IMP segmentation
+        - Georeferencing / projections / footprints
+        - Coverage semantics
+        - Provenance / splits
+        - Scoring or other derived metric
+        - Wording / scientific integrity
+        - Data contract / schema
+    validations:
+      required: true
+  - type: input
+    id: object
+    attributes:
+      label: Affected object or value
+      description: Object id, tile/product id, coordinate, field name, or the exact published number.
+    validations:
+      required: true
+  - type: input
+    id: version
+    attributes:
+      label: processingVersion
+      placeholder: science-0.3.0
+    validations:
+      required: true
+  - type: textarea
+    id: observed
+    attributes:
+      label: What the pipeline produces
+    validations:
+      required: true
+  - type: textarea
+    id: expected
+    attributes:
+      label: What you believe is correct, and why
+      description: Show the derivation, the upstream metadata, the catalogue entry or the published source.
+    validations:
+      required: true
+  - type: textarea
+    id: evidence
+    attributes:
+      label: Evidence
+      description: |
+        Upstream reference (dataset revision, model card, publication with DOI), a reproduction command, or a
+        computation someone else can repeat. Please do not attach large binaries.
+    validations:
+      required: true
+  - type: dropdown
+    id: origin
+    attributes:
+      label: Which origin level is affected
+      options:
+        - Source observation
+        - Reference annotation
+        - Model prediction (raw)
+        - Normalized value
+        - Display representation
+        - MOONATLAS derived metric
+        - Not sure
+    validations:
+      required: true

@@ -1,0 +1,59 @@
+[
+  {
+    "id": "ice-mosaic-s",
+    "pole": "south",
+    "projection": {
+      "kind": "polar-stereographic",
+      "latitudeOfOriginDeg": -90,
+      "centralMeridianDeg": 0,
+      "scaleFactor": 0.994,
+      "falseEastingM": 500000.0,
+      "falseNorthingM": 500000.0,
+      "radiusM": 1737400.0
+    },
+    "grid": {
+      "xMinM": 320006.48,
+      "yMaxM": 741064.88,
+      "pixelSizeXM": 238.56,
+      "pixelSizeYM": 238.56,
+      "widthPx": 256,
+      "heightPx": 256
+    },
+    "prediction": {
+      "rawPath": "overlays/ice/ice-mosaic-s-raw.webp",
+      "rawEncoding": {
+        "kind": "u16-rg-linear",
+        "offset": -0.06341193616390228,
+        "scale": 1.64667435602619e-05
+      },
+      "displayPath": "overlays/ice/ice-mosaic-s.webp",
+      "displayRange": [
+        0,
+        1
+      ]
+    },
+    "reference": {
+      "rawPath": "overlays/ice/ice-mosaic-s-reference-raw.webp",
+      "rawEncoding": {
+        "kind": "u16-rg-linear",
+        "offset": 0.0018666028045117855,
+        "scale": 1.523053936362994e-05
+      },
+      "displayPath": "overlays/ice/ice-mosaic-s-reference.webp",
+      "displayRange": [
+        0,
+        1
+      ]
+    },
+    "patches": [
+      {
+        "sectorId": "ice-s-0001-0002",
+        "col": 0,
+        "row": 0,
+        "widthPx": 256,
+        "heightPx": 256
+      }
+    ],
+    "overlapRule": "reject"
+  }
+]

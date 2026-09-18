@@ -1,0 +1,46 @@
+name: Bug report
+description: Something in the pipeline, scripts or tests does not work as documented
+labels: ["bug"]
+body:
+  - type: markdown
+    attributes:
+      value: |
+        For a wrong or suspicious **scientific value**, use "Scientific / data issue" instead.
+  - type: textarea
+    id: what-happened
+    attributes:
+      label: What happened
+      description: What you ran and what it did. Include the exact command and the error, trimmed.
+      placeholder: |
+        $ python scripts/build_real.py --out build/science-0.3.0
+        ...
+    validations:
+      required: true
+  - type: textarea
+    id: expected
+    attributes:
+      label: What you expected
+    validations:
+      required: true
+  - type: input
+    id: version
+    attributes:
+      label: Repository version
+      description: Commit SHA or tag, and the processingVersion if a build is involved.
+    validations:
+      required: true
+  - type: textarea
+    id: environment
+    attributes:
+      label: Environment
+      description: OS, Python version, GPU/CPU, whether upstream models and data are downloaded.
+    validations:
+      required: true
+  - type: checkboxes
+    id: hygiene
+    attributes:
+      label: Before submitting
+      options:
+        - label: I ran `pytest -m "not slow"` and included any failure output
+        - label: I did not paste credentials, tokens or absolute paths containing personal information
+          required: true

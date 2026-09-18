@@ -1,0 +1,58 @@
+# ─── Python ──────────────────────────────────────────────────────────────────
+__pycache__/
+*.py[cod]
+*.egg-info/
+.eggs/
+build/
+dist/
+.venv/
+venv/
+.pytest_cache/
+.ruff_cache/
+.mypy_cache/
+.coverage
+htmlcov/
+
+# ─── Upstream material: never committed, always downloaded at pinned revisions ─
+/data/                      # raw downloads, upstream checkouts, samples, intermediates
+*.ckpt
+*.pt
+*.pth
+*.safetensors
+*.tif
+*.tiff
+*.npy
+*.npz
+*.h5
+*.nc
+
+# ─── Generated builds and artifacts ──────────────────────────────────────────
+/build/
+/out/
+/dist/
+/artifacts/
+/datasets/
+*.tar.gz
+*.zip
+
+# ─── Secrets and local environment ───────────────────────────────────────────
+.env
+.env.*
+!.env.example
+*.pem
+*.key
+credentials.json
+.hf_token
+.huggingface/
+
+# ─── Editors and OS ──────────────────────────────────────────────────────────
+.vscode/
+.idea/
+*.swp
+.DS_Store
+Thumbs.db
+
+# Notes:
+# - examples/ is the only place where small third-party-derived data may live, and
+#   only when its licence permits redistribution with attribution (see NOTICE).
+# - Report artifacts (figures, JSON reports) belong in data/artifacts/, ignored.

@@ -1,0 +1,77 @@
+[
+  {
+    "id": "wac-m1174144247ce-r5360-c480",
+    "latitude": -53.153829,
+    "longitude": -169.176758,
+    "scale": "WAC",
+    "source": {
+      "productId": "M1174144247CE",
+      "footprint": [
+        {
+          "latitude": -52.206958,
+          "longitude": -170.362391
+        },
+        {
+          "latitude": -52.416167,
+          "longitude": -167.631796
+        },
+        {
+          "latitude": -54.090755,
+          "longitude": -167.938453
+        },
+        {
+          "latitude": -53.868461,
+          "longitude": -170.774356
+        }
+      ],
+      "sizeKm": 51.016,
+      "resolutionM": 99.641,
+      "incidenceAngleDeg": 73.92,
+      "imagePath": "previews/craters/wac-m1174144247ce-r5360-c480.webp",
+      "projection": {
+        "kind": "transverse-mercator",
+        "latitudeOfOriginDeg": 0,
+        "centralMeridianDeg": -160,
+        "scaleFactor": 0.999,
+        "falseEastingM": 250000.0,
+        "falseNorthingM": 2500000.0,
+        "radiusM": 1737400.0
+      },
+      "grid": {
+        "xMinM": 57900.0,
+        "yMaxM": 904700.0,
+        "pixelSizeXM": 100.0,
+        "pixelSizeYM": 100.0,
+        "widthPx": 512,
+        "heightPx": 512
+      }
+    },
+    "prediction": {
+      "detectionCount": 76,
+      "densityPer1000Km2": 29.201,
+      "confidenceThreshold": 0.5
+    },
+    "reference": {
+      "craterCount": 95
+    },
+    "derived": {
+      "matchedPredictions": 55,
+      "score": {
+        "value": 50.0,
+        "formula": "crater-region-density-rank-v1"
+      }
+    },
+    "detailPath": "crater-tiles/wac-m1174144247ce-r5360-c480.json",
+    "provenance": {
+      "task": "crater-detection",
+      "sourceDataset": "sombench-wac-crater-detection",
+      "sourceTile": "M1174144247CE_r5360_c480.tif",
+      "datasetSplit": "test",
+      "model": "lfm-crater-detection",
+      "checkpoint": "WAC_ni_lfm_ps8_lora_s46.ckpt",
+      "modelRevision": "f09ebeae2099c28f09bf4060f56d3e327a6192de",
+      "referenceSource": "robbins-2019",
+      "processingVersion": "science-0.3.0"
+    }
+  }
+]

@@ -1,0 +1,7 @@
+# Text files keep LF in the repository, whatever the contributor's platform does locally.
+* text=auto eol=lf
+
+# Binary assets
+*.webp binary
+*.png binary
+*.ipynb -text

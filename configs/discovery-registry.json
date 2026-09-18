@@ -1,0 +1,959 @@
+{
+  "format": "moonatlas-discovery-registry-v1",
+  "entries": [
+    {
+      "id": "MM-CR-000001",
+      "type": "CRATER_CANDIDATE",
+      "key": "crater-detection|sombench-wac-crater-detection|M1174144247CE_r5360_c480.tif|WAC_ni_lfm_ps8_lora_s46.ckpt|box=374,401,61,62",
+      "firstCatalogued": "2026-09-17"
+    },
+    {
+      "id": "MM-CR-000002",
+      "type": "CRATER_CANDIDATE",
+      "key": "crater-detection|sombench-wac-crater-detection|M1112686779CE_r6504_c360.tif|WAC_ni_lfm_ps8_lora_s46.ckpt|box=169,342,288,311",
+      "firstCatalogued": "2026-09-17"
+    },
+    {
+      "id": "MM-CR-000003",
+      "type": "CRATER_CANDIDATE",
+      "key": "crater-detection|sombench-wac-crater-detection|M1143364519CE_r11672_c4112.tif|WAC_ni_lfm_ps8_lora_s46.ckpt|box=213,319,239,254",
+      "firstCatalogued": "2026-09-17"
+    },
+    {
+      "id": "MM-CR-000004",
+      "type": "CRATER_CANDIDATE",
+      "key": "crater-detection|sombench-wac-crater-detection|M1143364519CE_r16280_c4352.tif|WAC_ni_lfm_ps8_lora_s46.ckpt|box=208,356,397,309",
+      "firstCatalogued": "2026-09-17"
+    },
+    {
+      "id": "MM-CR-000005",
+      "type": "CRATER_CANDIDATE",
+      "key": "crater-detection|sombench-wac-crater-detection|M1152946358CE_r3824_c360.tif|WAC_ni_lfm_ps8_lora_s46.ckpt|box=317,376,332,270",
+      "firstCatalogued": "2026-09-17"
+    },
+    {
+      "id": "MM-CR-000006",
+      "type": "CRATER_CANDIDATE",
+      "key": "crater-detection|sombench-wac-crater-detection|M1158573664CE_r5720_c8016.tif|WAC_ni_lfm_ps8_lora_s46.ckpt|box=98,321,186,314",
+      "firstCatalogued": "2026-09-17"
+    },
+    {
+      "id": "MM-CR-000007",
+      "type": "CRATER_CANDIDATE",
+      "key": "crater-detection|sombench-wac-crater-detection|M1214140760CE_r5872_c240.tif|WAC_ni_lfm_ps8_lora_s46.ckpt|box=368,171,282,334",
+      "firstCatalogued": "2026-09-17"
+    },
+    {
+      "id": "MM-CR-000008",
+      "type": "CRATER_CANDIDATE",
+      "key": "crater-detection|sombench-wac-crater-detection|M1235352691CE_r752_c240.tif|WAC_ni_lfm_ps8_lora_s46.ckpt|box=328,329,311,321",
+      "firstCatalogued": "2026-09-17"
+    },
+    {
+      "id": "MM-CR-000009",
+      "type": "CRATER_CANDIDATE",
+      "key": "crater-detection|sombench-wac-crater-detection|M1244734512CE_r4336_c240.tif|WAC_ni_lfm_ps8_lora_s46.ckpt|box=331,352,345,314",
+      "firstCatalogued": "2026-09-17"
+    },
+    {
+      "id": "MM-CR-000010",
+      "type": "CRATER_CANDIDATE",
+      "key": "crater-detection|sombench-wac-crater-detection|M1250336474CE_r6112_c9904.tif|WAC_ni_lfm_ps8_lora_s46.ckpt|box=188,405,334,209",
+      "firstCatalogued": "2026-09-17"
+    },
+    {
+      "id": "MM-CR-000011",
+      "type": "CRATER_CANDIDATE",
+      "key": "crater-detection|sombench-wac-crater-detection|M1250420874CE_r1624_c2104.tif|WAC_ni_lfm_ps8_lora_s46.ckpt|box=153,207,304,384",
+      "firstCatalogued": "2026-09-17"
+    },
+    {
+      "id": "MM-CR-000012",
+      "type": "CRATER_CANDIDATE",
+      "key": "crater-detection|sombench-wac-crater-detection|M1318511512CE_r2920_c600.tif|WAC_ni_lfm_ps8_lora_s46.ckpt|box=146,301,279,284",
+      "firstCatalogued": "2026-09-17"
+    },
+    {
+      "id": "MM-CR-000013",
+      "type": "CRATER_CANDIDATE",
+      "key": "crater-detection|sombench-wac-crater-detection|M1383386579CE_r7920_c752.tif|WAC_ni_lfm_ps8_lora_s46.ckpt|box=430,273,163,344",
+      "firstCatalogued": "2026-09-17"
+    },
+    {
+      "id": "MM-CR-000014",
+      "type": "CRATER_CANDIDATE",
+      "key": "crater-detection|sombench-wac-crater-detection|M1096151091CE_r10480_c840.tif|WAC_ni_lfm_ps8_lora_s46.ckpt|box=103,127,197,228",
+      "firstCatalogued": "2026-09-17"
+    },
+    {
+      "id": "MM-CR-000015",
+      "type": "CRATER_CANDIDATE",
+      "key": "crater-detection|sombench-wac-crater-detection|M1112686779CE_r6504_c360.tif|WAC_ni_lfm_ps8_lora_s46.ckpt|box=421,62,180,119",
+      "firstCatalogued": "2026-09-17"
+    },
+    {
+      "id": "MM-CR-000016",
+      "type": "CRATER_CANDIDATE",
+      "key": "crater-detection|sombench-wac-crater-detection|M1137371976CE_r4968_c480.tif|WAC_ni_lfm_ps8_lora_s46.ckpt|box=58,269,75,78",
+      "firstCatalogued": "2026-09-17"
+    },
+    {
+      "id": "MM-CR-000017",
+      "type": "CRATER_CANDIDATE",
+      "key": "crater-detection|sombench-wac-crater-detection|M1143321860CE_r12136_c240.tif|WAC_ni_lfm_ps8_lora_s46.ckpt|box=316,60,183,119",
+      "firstCatalogued": "2026-09-17"
+    },
+    {
+      "id": "MM-CR-000018",
+      "type": "CRATER_CANDIDATE",
+      "key": "crater-detection|sombench-wac-crater-detection|M1143364519CE_r14232_c4232.tif|WAC_ni_lfm_ps8_lora_s46.ckpt|box=280,263,176,197",
+      "firstCatalogued": "2026-09-17"
+    },
+    {
+      "id": "MM-CR-000019",
+      "type": "CRATER_CANDIDATE",
+      "key": "crater-detection|sombench-wac-crater-detection|M1143364519CE_r16280_c4352.tif|WAC_ni_lfm_ps8_lora_s46.ckpt|box=39,300,50,53",
+      "firstCatalogued": "2026-09-17"
+    },
+    {
+      "id": "MM-CR-000020",
+      "type": "CRATER_CANDIDATE",
+      "key": "crater-detection|sombench-wac-crater-detection|M1201022087CE_r3432_c872.tif|WAC_ni_lfm_ps8_lora_s46.ckpt|box=263,193,92,94",
+      "firstCatalogued": "2026-09-17"
+    },
+    {
+      "id": "MM-CR-000021",
+      "type": "CRATER_CANDIDATE",
+      "key": "crater-detection|sombench-wac-crater-detection|M1201022087CE_r7528_c1112.tif|WAC_ni_lfm_ps8_lora_s46.ckpt|box=345,466,40,40",
+      "firstCatalogued": "2026-09-17"
+    },
+    {
+      "id": "MM-CR-000022",
+      "type": "CRATER_CANDIDATE",
+      "key": "crater-detection|sombench-wac-crater-detection|M1219707593CE_r6112_c13208.tif|WAC_ni_lfm_ps8_lora_s46.ckpt|box=251,308,204,202",
+      "firstCatalogued": "2026-09-17"
+    },
+    {
+      "id": "MM-CR-000023",
+      "type": "CRATER_CANDIDATE",
+      "key": "crater-detection|sombench-wac-crater-detection|M1256282364CE_r1896_c720.tif|WAC_ni_lfm_ps8_lora_s46.ckpt|box=462,270,57,58",
+      "firstCatalogued": "2026-09-17"
+    },
+    {
+      "id": "MM-CR-000024",
+      "type": "CRATER_CANDIDATE",
+      "key": "crater-detection|sombench-wac-crater-detection|M1291516692CE_r10992_c960.tif|WAC_ni_lfm_ps8_lora_s46.ckpt|box=40,425,80,139",
+      "firstCatalogued": "2026-09-17"
+    },
+    {
+      "id": "MM-CR-000025",
+      "type": "CRATER_CANDIDATE",
+      "key": "crater-detection|sombench-wac-crater-detection|M1291516692CE_r13040_c1080.tif|WAC_ni_lfm_ps8_lora_s46.ckpt|box=354,200,31,31",
+      "firstCatalogued": "2026-09-17"
+    },
+    {
+      "id": "MM-CR-000026",
+      "type": "CRATER_CANDIDATE",
+      "key": "crater-detection|sombench-wac-crater-detection|M1358410135CE_r360_c1680.tif|WAC_ni_lfm_ps8_lora_s46.ckpt|box=152,315,85,83",
+      "firstCatalogued": "2026-09-17"
+    },
+    {
+      "id": "MM-CR-000027",
+      "type": "CRATER_CANDIDATE",
+      "key": "crater-detection|sombench-wac-crater-detection|M1423083310CE_r12136_c240.tif|WAC_ni_lfm_ps8_lora_s46.ckpt|box=268,159,184,194",
+      "firstCatalogued": "2026-09-17"
+    },
+    {
+      "id": "MM-CR-000028",
+      "type": "CRATER_CANDIDATE",
+      "key": "crater-detection|sombench-wac-crater-detection|M1451393499CE_r11232_c1832.tif|WAC_ni_lfm_ps8_lora_s46.ckpt|box=108,150,194,285",
+      "firstCatalogued": "2026-09-17"
+    },
+    {
+      "id": "MM-CR-000029",
+      "type": "CRATER_CANDIDATE",
+      "key": "crater-detection|sombench-wac-crater-detection|M1467576047CE_r13040_c1952.tif|WAC_ni_lfm_ps8_lora_s46.ckpt|box=386,265,25,25",
+      "firstCatalogued": "2026-09-17"
+    },
+    {
+      "id": "MM-CR-000030",
+      "type": "CRATER_CANDIDATE",
+      "key": "crater-detection|sombench-wac-crater-detection|M1467576047CE_r9968_c1320.tif|WAC_ni_lfm_ps8_lora_s46.ckpt|box=410,95,180,182",
+      "firstCatalogued": "2026-09-17"
+    },
+    {
+      "id": "MM-CR-000031",
+      "type": "CRATER_CANDIDATE",
+      "key": "crater-detection|sombench-wac-crater-detection|M1470102809CE_r10600_c872.tif|WAC_ni_lfm_ps8_lora_s46.ckpt|box=205,400,164,172",
+      "firstCatalogued": "2026-09-17"
+    },
+    {
+      "id": "MM-CR-000032",
+      "type": "CRATER_CANDIDATE",
+      "key": "crater-detection|sombench-wac-crater-detection|M1479507252CE_r5360_c360.tif|WAC_ni_lfm_ps8_lora_s46.ckpt|box=361,133,101,95",
+      "firstCatalogued": "2026-09-17"
+    },
+    {
+      "id": "MM-CR-000033",
+      "type": "CRATER_CANDIDATE",
+      "key": "crater-detection|sombench-wac-crater-detection|M1097764306CE_r8672_c1984.tif|WAC_ni_lfm_ps8_lora_s46.ckpt|box=329,295,362,432",
+      "firstCatalogued": "2026-09-17"
+    },
+    {
+      "id": "MM-CR-000034",
+      "type": "CRATER_CANDIDATE",
+      "key": "crater-detection|sombench-wac-crater-detection|M1104229711CE_r2408_c1384.tif|WAC_ni_lfm_ps8_lora_s46.ckpt|box=176,315,345,365",
+      "firstCatalogued": "2026-09-17"
+    },
+    {
+      "id": "MM-CR-000035",
+      "type": "CRATER_CANDIDATE",
+      "key": "crater-detection|sombench-wac-crater-detection|M1108060399CE_r11112_c720.tif|WAC_ni_lfm_ps8_lora_s46.ckpt|box=310,211,380,404",
+      "firstCatalogued": "2026-09-17"
+    },
+    {
+      "id": "MM-CR-000036",
+      "type": "CRATER_CANDIDATE",
+      "key": "crater-detection|sombench-wac-crater-detection|M1112423897CE_r1384_c752.tif|WAC_ni_lfm_ps8_lora_s46.ckpt|box=147,148,292,291",
+      "firstCatalogued": "2026-09-17"
+    },
+    {
+      "id": "MM-CR-000037",
+      "type": "CRATER_CANDIDATE",
+      "key": "crater-detection|sombench-wac-crater-detection|M1124251339CE_r3312_c480.tif|WAC_ni_lfm_ps8_lora_s46.ckpt|box=247,297,404,400",
+      "firstCatalogued": "2026-09-17"
+    },
+    {
+      "id": "MM-CR-000038",
+      "type": "CRATER_CANDIDATE",
+      "key": "crater-detection|sombench-wac-crater-detection|M1126622867CE_r12136_c1472.tif|WAC_ni_lfm_ps8_lora_s46.ckpt|box=334,322,327,332",
+      "firstCatalogued": "2026-09-17"
+    },
+    {
+      "id": "MM-CR-000039",
+      "type": "CRATER_CANDIDATE",
+      "key": "crater-detection|sombench-wac-crater-detection|M1170190360CE_r2920_c872.tif|WAC_ni_lfm_ps8_lora_s46.ckpt|box=295,279,287,296",
+      "firstCatalogued": "2026-09-17"
+    },
+    {
+      "id": "MM-CR-000040",
+      "type": "CRATER_CANDIDATE",
+      "key": "crater-detection|sombench-wac-crater-detection|M1173648525CE_r6504_c480.tif|WAC_ni_lfm_ps8_lora_s46.ckpt|box=244,253,317,317",
+      "firstCatalogued": "2026-09-17"
+    },
+    {
+      "id": "MM-CR-000041",
+      "type": "CRATER_CANDIDATE",
+      "key": "crater-detection|sombench-wac-crater-detection|M1279062115CE_r1264_c240.tif|WAC_ni_lfm_ps8_lora_s46.ckpt|box=245,220,327,316",
+      "firstCatalogued": "2026-09-17"
+    },
+    {
+      "id": "MM-CR-000042",
+      "type": "CRATER_CANDIDATE",
+      "key": "crater-detection|sombench-wac-crater-detection|M1332379745CE_r3432_c720.tif|WAC_ni_lfm_ps8_lora_s46.ckpt|box=130,302,240,319",
+      "firstCatalogued": "2026-09-17"
+    },
+    {
+      "id": "MM-CR-000043",
+      "type": "CRATER_CANDIDATE",
+      "key": "crater-detection|sombench-wac-crater-detection|M1339359624CE_r1896_c1112.tif|WAC_ni_lfm_ps8_lora_s46.ckpt|box=167,276,304,329",
+      "firstCatalogued": "2026-09-17"
+    },
+    {
+      "id": "MM-CR-000044",
+      "type": "CRATER_CANDIDATE",
+      "key": "crater-detection|sombench-wac-crater-detection|M1349544580CE_r752_c632.tif|WAC_ni_lfm_ps8_lora_s46.ckpt|box=130,248,255,328",
+      "firstCatalogued": "2026-09-17"
+    },
+    {
+      "id": "MM-CR-000045",
+      "type": "CRATER_CANDIDATE",
+      "key": "crater-detection|sombench-wac-crater-detection|M1368343876CE_r7920_c840.tif|WAC_ni_lfm_ps8_lora_s46.ckpt|box=294,341,307,286",
+      "firstCatalogued": "2026-09-17"
+    },
+    {
+      "id": "MM-CR-000046",
+      "type": "CRATER_CANDIDATE",
+      "key": "crater-detection|sombench-wac-crater-detection|M1383612653CE_r1896_c840.tif|WAC_ni_lfm_ps8_lora_s46.ckpt|box=253,319,362,358",
+      "firstCatalogued": "2026-09-17"
+    },
+    {
+      "id": "MM-CR-000047",
+      "type": "CRATER_CANDIDATE",
+      "key": "crater-detection|sombench-wac-crater-detection|M1413433128CE_r8040_c600.tif|WAC_ni_lfm_ps8_lora_s46.ckpt|box=156,184,306,365",
+      "firstCatalogued": "2026-09-17"
+    },
+    {
+      "id": "MM-CR-000048",
+      "type": "CRATER_CANDIDATE",
+      "key": "crater-detection|sombench-wac-crater-detection|M1422795233CE_r10480_c480.tif|WAC_ni_lfm_ps8_lora_s46.ckpt|box=312,267,257,271",
+      "firstCatalogued": "2026-09-17"
+    },
+    {
+      "id": "MM-CR-000049",
+      "type": "CRATER_CANDIDATE",
+      "key": "crater-detection|sombench-wac-crater-detection|M1481423892CE_r4968_c1320.tif|WAC_ni_lfm_ps8_lora_s46.ckpt|box=265,315,383,364",
+      "firstCatalogued": "2026-09-17"
+    },
+    {
+      "id": "MM-CR-000050",
+      "type": "CRATER_CANDIDATE",
+      "key": "crater-detection|sombench-wac-crater-detection|M180115108CE_r1384_c240.tif|WAC_ni_lfm_ps8_lora_s46.ckpt|box=307,180,409,352",
+      "firstCatalogued": "2026-09-17"
+    },
+    {
+      "id": "MM-CR-000051",
+      "type": "CRATER_CANDIDATE",
+      "key": "crater-detection|sombench-wac-crater-detection|M191160245CE_r5088_c480.tif|WAC_ni_lfm_ps8_lora_s46.ckpt|box=404,289,201,413",
+      "firstCatalogued": "2026-09-17"
+    },
+    {
+      "id": "MM-CR-000052",
+      "type": "CRATER_CANDIDATE",
+      "key": "crater-detection|sombench-wac-crater-detection|M1234031406CE_r11504_c240.tif|WAC_ni_lfm_ps8_lora_s46.ckpt|box=93,355,183,281",
+      "firstCatalogued": "2026-09-17"
+    },
+    {
+      "id": "MM-CR-000053",
+      "type": "CRATER_CANDIDATE",
+      "key": "crater-detection|sombench-wac-crater-detection|M1339500282CE_r11744_c3480.tif|WAC_ni_lfm_ps8_lora_s46.ckpt|box=318,70,348,137",
+      "firstCatalogued": "2026-09-17"
+    },
+    {
+      "id": "MM-CR-000054",
+      "type": "CRATER_CANDIDATE",
+      "key": "crater-detection|sombench-wac-crater-detection|M1441621677CE_r1384_c1080.tif|WAC_ni_lfm_ps8_lora_s46.ckpt|box=258,306,227,239",
+      "firstCatalogued": "2026-09-17"
+    },
+    {
+      "id": "MM-CR-000055",
+      "type": "CRATER_CANDIDATE",
+      "key": "crater-detection|sombench-wac-crater-detection|M1470004616CE_r1384_c3000.tif|WAC_ni_lfm_ps8_lora_s46.ckpt|box=292,233,236,246",
+      "firstCatalogued": "2026-09-17"
+    },
+    {
+      "id": "MM-CR-000056",
+      "type": "CRATER_CANDIDATE",
+      "key": "crater-detection|sombench-wac-crater-detection|M191903691CE_r6112_c992.tif|WAC_ni_lfm_ps8_lora_s46.ckpt|box=303,421,306,172",
+      "firstCatalogued": "2026-09-17"
+    },
+    {
+      "id": "MM-CR-000057",
+      "type": "CRATER_CANDIDATE",
+      "key": "crater-detection|sombench-wac-crater-detection|M1106759269CE_r1896_c240.tif|WAC_ni_lfm_ps8_lora_s46.ckpt|box=150,371,83,86",
+      "firstCatalogued": "2026-09-17"
+    },
+    {
+      "id": "MM-CR-000058",
+      "type": "CRATER_CANDIDATE",
+      "key": "crater-detection|sombench-wac-crater-detection|M1107924572CE_r9576_c1112.tif|WAC_ni_lfm_ps8_lora_s46.ckpt|box=46,459,36,36",
+      "firstCatalogued": "2026-09-17"
+    },
+    {
+      "id": "MM-CR-000059",
+      "type": "CRATER_CANDIDATE",
+      "key": "crater-detection|sombench-wac-crater-detection|M1107931740CE_r15208_c960.tif|WAC_ni_lfm_ps8_lora_s46.ckpt|box=330,414,32,33",
+      "firstCatalogued": "2026-09-17"
+    },
+    {
+      "id": "MM-CR-000060",
+      "type": "CRATER_CANDIDATE",
+      "key": "crater-detection|sombench-wac-crater-detection|M1107938877CE_r11112_c1112.tif|WAC_ni_lfm_ps8_lora_s46.ckpt|box=476,35,44,43",
+      "firstCatalogued": "2026-09-17"
+    },
+    {
+      "id": "MM-CR-000061",
+      "type": "CRATER_CANDIDATE",
+      "key": "crater-detection|sombench-wac-crater-detection|M1112693892CE_r14184_c872.tif|WAC_ni_lfm_ps8_lora_s46.ckpt|box=438,194,33,33",
+      "firstCatalogued": "2026-09-17"
+    },
+    {
+      "id": "MM-CR-000062",
+      "type": "CRATER_CANDIDATE",
+      "key": "crater-detection|sombench-wac-crater-detection|M1143364519CE_r14232_c4232.tif|WAC_ni_lfm_ps8_lora_s46.ckpt|box=368,332,41,40",
+      "firstCatalogued": "2026-09-17"
+    },
+    {
+      "id": "MM-CR-000063",
+      "type": "CRATER_CANDIDATE",
+      "key": "crater-detection|sombench-wac-crater-detection|M1143364519CE_r16280_c4352.tif|WAC_ni_lfm_ps8_lora_s46.ckpt|box=214,163,35,35",
+      "firstCatalogued": "2026-09-17"
+    },
+    {
+      "id": "MM-CR-000064",
+      "type": "CRATER_CANDIDATE",
+      "key": "crater-detection|sombench-wac-crater-detection|M1174122932CE_r5872_c240.tif|WAC_ni_lfm_ps8_lora_s46.ckpt|box=436,297,48,48",
+      "firstCatalogued": "2026-09-17"
+    },
+    {
+      "id": "MM-CR-000065",
+      "type": "CRATER_CANDIDATE",
+      "key": "crater-detection|sombench-wac-crater-detection|M1201022087CE_r1896_c752.tif|WAC_ni_lfm_ps8_lora_s46.ckpt|box=62,93,37,37",
+      "firstCatalogued": "2026-09-17"
+    },
+    {
+      "id": "MM-CR-000066",
+      "type": "CRATER_CANDIDATE",
+      "key": "crater-detection|sombench-wac-crater-detection|M1201022087CE_r4456_c872.tif|WAC_ni_lfm_ps8_lora_s46.ckpt|box=276,286,63,62",
+      "firstCatalogued": "2026-09-17"
+    },
+    {
+      "id": "MM-CR-000067",
+      "type": "CRATER_CANDIDATE",
+      "key": "crater-detection|sombench-wac-crater-detection|M1201022087CE_r7528_c1112.tif|WAC_ni_lfm_ps8_lora_s46.ckpt|box=423,73,40,39",
+      "firstCatalogued": "2026-09-17"
+    },
+    {
+      "id": "MM-CR-000068",
+      "type": "CRATER_CANDIDATE",
+      "key": "crater-detection|sombench-wac-crater-detection|M1235331597CE_r7408_c480.tif|WAC_ni_lfm_ps8_lora_s46.ckpt|box=118,46,95,91",
+      "firstCatalogued": "2026-09-17"
+    },
+    {
+      "id": "MM-CR-000069",
+      "type": "CRATER_CANDIDATE",
+      "key": "crater-detection|sombench-wac-crater-detection|M1278569102CE_r4696_c7296.tif|WAC_ni_lfm_ps8_lora_s46.ckpt|box=156,388,50,50",
+      "firstCatalogued": "2026-09-17"
+    },
+    {
+      "id": "MM-CR-000070",
+      "type": "CRATER_CANDIDATE",
+      "key": "crater-detection|sombench-wac-crater-detection|M1280874774CE_r4576_c8736.tif|WAC_ni_lfm_ps8_lora_s46.ckpt|box=40,328,31,30",
+      "firstCatalogued": "2026-09-17"
+    },
+    {
+      "id": "MM-CR-000071",
+      "type": "CRATER_CANDIDATE",
+      "key": "crater-detection|sombench-wac-crater-detection|M1324640004CE_r9456_c240.tif|WAC_ni_lfm_ps8_lora_s46.ckpt|box=127,155,241,249",
+      "firstCatalogued": "2026-09-17"
+    },
+    {
+      "id": "MM-CR-000072",
+      "type": "CRATER_CANDIDATE",
+      "key": "crater-detection|sombench-wac-crater-detection|M1349058695CE_r4456_c720.tif|WAC_ni_lfm_ps8_lora_s46.ckpt|box=26,307,34,32",
+      "firstCatalogued": "2026-09-17"
+    },
+    {
+      "id": "MM-CR-000073",
+      "type": "CRATER_CANDIDATE",
+      "key": "crater-detection|sombench-wac-crater-detection|M1462128589CE_r3552_c3032.tif|WAC_ni_lfm_ps8_lora_s46.ckpt|box=201,106,38,38",
+      "firstCatalogued": "2026-09-17"
+    },
+    {
+      "id": "MM-CR-000074",
+      "type": "CRATER_CANDIDATE",
+      "key": "crater-detection|sombench-wac-crater-detection|M1099379465CE_r992_c360.tif|WAC_ni_lfm_ps8_lora_s46.ckpt|box=240,199,43,45",
+      "firstCatalogued": "2026-09-17"
+    },
+    {
+      "id": "MM-CR-000075",
+      "type": "CRATER_CANDIDATE",
+      "key": "crater-detection|sombench-wac-crater-detection|M1106466195CE_r2920_c632.tif|WAC_ni_lfm_ps8_lora_s46.ckpt|box=449,85,31,34",
+      "firstCatalogued": "2026-09-17"
+    },
+    {
+      "id": "MM-CR-000076",
+      "type": "CRATER_CANDIDATE",
+      "key": "crater-detection|sombench-wac-crater-detection|M1108946582CE_r7528_c720.tif|WAC_ni_lfm_ps8_lora_s46.ckpt|box=307,250,32,32",
+      "firstCatalogued": "2026-09-17"
+    },
+    {
+      "id": "MM-CR-000077",
+      "type": "CRATER_CANDIDATE",
+      "key": "crater-detection|sombench-wac-crater-detection|M1109218713CE_r5872_c480.tif|WAC_ni_lfm_ps8_lora_s46.ckpt|box=347,447,31,32",
+      "firstCatalogued": "2026-09-17"
+    },
+    {
+      "id": "MM-CR-000078",
+      "type": "CRATER_CANDIDATE",
+      "key": "crater-detection|sombench-wac-crater-detection|M1111606549CE_r9064_c480.tif|WAC_ni_lfm_ps8_lora_s46.ckpt|box=34,487,31,31",
+      "firstCatalogued": "2026-09-17"
+    },
+    {
+      "id": "MM-CR-000079",
+      "type": "CRATER_CANDIDATE",
+      "key": "crater-detection|sombench-wac-crater-detection|M1112381279CE_r13160_c120.tif|WAC_ni_lfm_ps8_lora_s46.ckpt|box=267,90,33,34",
+      "firstCatalogued": "2026-09-17"
+    },
+    {
+      "id": "MM-CR-000080",
+      "type": "CRATER_CANDIDATE",
+      "key": "crater-detection|sombench-wac-crater-detection|M1112402483CE_r8040_c752.tif|WAC_ni_lfm_ps8_lora_s46.ckpt|box=188,203,33,33",
+      "firstCatalogued": "2026-09-17"
+    },
+    {
+      "id": "MM-CR-000081",
+      "type": "CRATER_CANDIDATE",
+      "key": "crater-detection|sombench-wac-crater-detection|M1113503652CE_r1384_c360.tif|WAC_ni_lfm_ps8_lora_s46.ckpt|box=171,39,62,59",
+      "firstCatalogued": "2026-09-17"
+    },
+    {
+      "id": "MM-CR-000082",
+      "type": "CRATER_CANDIDATE",
+      "key": "crater-detection|sombench-wac-crater-detection|M1124258461CE_r2288_c360.tif|WAC_ni_lfm_ps8_lora_s46.ckpt|box=30,52,33,34",
+      "firstCatalogued": "2026-09-17"
+    },
+    {
+      "id": "MM-CR-000083",
+      "type": "CRATER_CANDIDATE",
+      "key": "crater-detection|sombench-wac-crater-detection|M1126622867CE_r12136_c1472.tif|WAC_ni_lfm_ps8_lora_s46.ckpt|box=359,110,33,33",
+      "firstCatalogued": "2026-09-17"
+    },
+    {
+      "id": "MM-CR-000084",
+      "type": "CRATER_CANDIDATE",
+      "key": "crater-detection|sombench-wac-crater-detection|M1138225224CE_r12136_c1624.tif|WAC_ni_lfm_ps8_lora_s46.ckpt|box=135,208,30,30",
+      "firstCatalogued": "2026-09-17"
+    },
+    {
+      "id": "MM-CR-000085",
+      "type": "CRATER_CANDIDATE",
+      "key": "crater-detection|sombench-wac-crater-detection|M1158425123CE_r360_c240.tif|WAC_ni_lfm_ps8_lora_s46.ckpt|box=126,398,39,40",
+      "firstCatalogued": "2026-09-17"
+    },
+    {
+      "id": "MM-CR-000086",
+      "type": "CRATER_CANDIDATE",
+      "key": "crater-detection|sombench-wac-crater-detection|M1200811091CE_r3944_c872.tif|WAC_ni_lfm_ps8_lora_s46.ckpt|box=224,39,78,73",
+      "firstCatalogued": "2026-09-17"
+    },
+    {
+      "id": "MM-CR-000087",
+      "type": "CRATER_CANDIDATE",
+      "key": "crater-detection|sombench-wac-crater-detection|M1441796381CE_r10088_c720.tif|WAC_ni_lfm_ps8_lora_s46.ckpt|box=81,117,36,37",
+      "firstCatalogued": "2026-09-17"
+    },
+    {
+      "id": "MM-CR-000088",
+      "type": "CRATER_CANDIDATE",
+      "key": "crater-detection|sombench-wac-crater-detection|M1466860439CE_r6896_c840.tif|WAC_ni_lfm_ps8_lora_s46.ckpt|box=376,325,39,39",
+      "firstCatalogued": "2026-09-17"
+    },
+    {
+      "id": "MM-CR-000089",
+      "type": "CRATER_CANDIDATE",
+      "key": "crater-detection|sombench-wac-crater-detection|M1481381795CE_r11504_c480.tif|WAC_ni_lfm_ps8_lora_s46.ckpt|box=103,469,30,31",
+      "firstCatalogued": "2026-09-17"
+    },
+    {
+      "id": "MM-ICE-000001",
+      "type": "HIGH_PROSPECTIVITY_REGION",
+      "key": "ice-prospectivity|sombench-ice-prospectivity-regression|patch_0001_0002_S_80S",
+      "firstCatalogued": "2026-09-17"
+    },
+    {
+      "id": "MM-ICE-000002",
+      "type": "HIGH_PROSPECTIVITY_REGION",
+      "key": "ice-prospectivity|sombench-ice-prospectivity-regression|patch_0000_0003_S_80S",
+      "firstCatalogued": "2026-09-17"
+    },
+    {
+      "id": "MM-ICE-000003",
+      "type": "HIGH_PROSPECTIVITY_REGION",
+      "key": "ice-prospectivity|sombench-ice-prospectivity-regression|patch_0001_0008_S_80S",
+      "firstCatalogued": "2026-09-17"
+    },
+    {
+      "id": "MM-ICE-000004",
+      "type": "HIGH_PROSPECTIVITY_REGION",
+      "key": "ice-prospectivity|sombench-ice-prospectivity-regression|patch_0003_0000_S_80S",
+      "firstCatalogued": "2026-09-17"
+    },
+    {
+      "id": "MM-ICE-000005",
+      "type": "HIGH_PROSPECTIVITY_REGION",
+      "key": "ice-prospectivity|sombench-ice-prospectivity-regression|patch_0003_0001_S_80S",
+      "firstCatalogued": "2026-09-17"
+    },
+    {
+      "id": "MM-ICE-000006",
+      "type": "HIGH_PROSPECTIVITY_REGION",
+      "key": "ice-prospectivity|sombench-ice-prospectivity-regression|patch_0003_0002_S_80S",
+      "firstCatalogued": "2026-09-17"
+    },
+    {
+      "id": "MM-ICE-000007",
+      "type": "HIGH_PROSPECTIVITY_REGION",
+      "key": "ice-prospectivity|sombench-ice-prospectivity-regression|patch_0003_0008_S_80S",
+      "firstCatalogued": "2026-09-17"
+    },
+    {
+      "id": "MM-ICE-000008",
+      "type": "HIGH_PROSPECTIVITY_REGION",
+      "key": "ice-prospectivity|sombench-ice-prospectivity-regression|patch_0005_0008_S_80S",
+      "firstCatalogued": "2026-09-17"
+    },
+    {
+      "id": "MM-ICE-000009",
+      "type": "HIGH_PROSPECTIVITY_REGION",
+      "key": "ice-prospectivity|sombench-ice-prospectivity-regression|patch_0007_0001_S_80S",
+      "firstCatalogued": "2026-09-17"
+    },
+    {
+      "id": "MM-ICE-000010",
+      "type": "HIGH_PROSPECTIVITY_REGION",
+      "key": "ice-prospectivity|sombench-ice-prospectivity-regression|patch_0007_0006_S_80S",
+      "firstCatalogued": "2026-09-17"
+    },
+    {
+      "id": "MM-ICE-000011",
+      "type": "HIGH_PROSPECTIVITY_REGION",
+      "key": "ice-prospectivity|sombench-ice-prospectivity-regression|patch_0007_0008_S_80S",
+      "firstCatalogued": "2026-09-17"
+    },
+    {
+      "id": "MM-ICE-000012",
+      "type": "HIGH_PROSPECTIVITY_REGION",
+      "key": "ice-prospectivity|sombench-ice-prospectivity-regression|patch_0008_0003_S_80S",
+      "firstCatalogued": "2026-09-17"
+    },
+    {
+      "id": "MM-ICE-000013",
+      "type": "HIGH_PROSPECTIVITY_REGION",
+      "key": "ice-prospectivity|sombench-ice-prospectivity-regression|patch_0001_0002_80N",
+      "firstCatalogued": "2026-09-17"
+    },
+    {
+      "id": "MM-ICE-000014",
+      "type": "HIGH_PROSPECTIVITY_REGION",
+      "key": "ice-prospectivity|sombench-ice-prospectivity-regression|patch_0001_0004_80N",
+      "firstCatalogued": "2026-09-17"
+    },
+    {
+      "id": "MM-ICE-000015",
+      "type": "HIGH_PROSPECTIVITY_REGION",
+      "key": "ice-prospectivity|sombench-ice-prospectivity-regression|patch_0002_0007_80N",
+      "firstCatalogued": "2026-09-17"
+    },
+    {
+      "id": "MM-ICE-000016",
+      "type": "HIGH_PROSPECTIVITY_REGION",
+      "key": "ice-prospectivity|sombench-ice-prospectivity-regression|patch_0003_0001_80N",
+      "firstCatalogued": "2026-09-17"
+    },
+    {
+      "id": "MM-ICE-000017",
+      "type": "HIGH_PROSPECTIVITY_REGION",
+      "key": "ice-prospectivity|sombench-ice-prospectivity-regression|patch_0006_0003_80N",
+      "firstCatalogued": "2026-09-17"
+    },
+    {
+      "id": "MM-ICE-000018",
+      "type": "HIGH_PROSPECTIVITY_REGION",
+      "key": "ice-prospectivity|sombench-ice-prospectivity-regression|patch_0003_0004_80N",
+      "firstCatalogued": "2026-09-17"
+    },
+    {
+      "id": "MM-ICE-000019",
+      "type": "HIGH_PROSPECTIVITY_REGION",
+      "key": "ice-prospectivity|sombench-ice-prospectivity-regression|patch_0006_0000_80N",
+      "firstCatalogued": "2026-09-17"
+    },
+    {
+      "id": "MM-ICE-000020",
+      "type": "HIGH_PROSPECTIVITY_REGION",
+      "key": "ice-prospectivity|sombench-ice-prospectivity-regression|patch_0008_0005_80N",
+      "firstCatalogued": "2026-09-17"
+    },
+    {
+      "id": "MM-ICE-000021",
+      "type": "HIGH_PROSPECTIVITY_REGION",
+      "key": "ice-prospectivity|sombench-ice-prospectivity-regression|patch_0000_0005_80N",
+      "firstCatalogued": "2026-09-17"
+    },
+    {
+      "id": "MM-ICE-000022",
+      "type": "HIGH_PROSPECTIVITY_REGION",
+      "key": "ice-prospectivity|sombench-ice-prospectivity-regression|patch_0001_0003_80N",
+      "firstCatalogued": "2026-09-17"
+    },
+    {
+      "id": "MM-ICE-000023",
+      "type": "HIGH_PROSPECTIVITY_REGION",
+      "key": "ice-prospectivity|sombench-ice-prospectivity-regression|patch_0001_0005_S_80S",
+      "firstCatalogued": "2026-09-17"
+    },
+    {
+      "id": "MM-ICE-000024",
+      "type": "HIGH_PROSPECTIVITY_REGION",
+      "key": "ice-prospectivity|sombench-ice-prospectivity-regression|patch_0002_0001_S_80S",
+      "firstCatalogued": "2026-09-17"
+    },
+    {
+      "id": "MM-ICE-000025",
+      "type": "HIGH_PROSPECTIVITY_REGION",
+      "key": "ice-prospectivity|sombench-ice-prospectivity-regression|patch_0002_0006_80N",
+      "firstCatalogued": "2026-09-17"
+    },
+    {
+      "id": "MM-ICE-000026",
+      "type": "HIGH_PROSPECTIVITY_REGION",
+      "key": "ice-prospectivity|sombench-ice-prospectivity-regression|patch_0003_0000_80N",
+      "firstCatalogued": "2026-09-17"
+    },
+    {
+      "id": "MM-ICE-000027",
+      "type": "HIGH_PROSPECTIVITY_REGION",
+      "key": "ice-prospectivity|sombench-ice-prospectivity-regression|patch_0003_0005_S_80S",
+      "firstCatalogued": "2026-09-17"
+    },
+    {
+      "id": "MM-ICE-000028",
+      "type": "HIGH_PROSPECTIVITY_REGION",
+      "key": "ice-prospectivity|sombench-ice-prospectivity-regression|patch_0004_0002_80N",
+      "firstCatalogued": "2026-09-17"
+    },
+    {
+      "id": "MM-ICE-000029",
+      "type": "HIGH_PROSPECTIVITY_REGION",
+      "key": "ice-prospectivity|sombench-ice-prospectivity-regression|patch_0004_0007_80N",
+      "firstCatalogued": "2026-09-17"
+    },
+    {
+      "id": "MM-ICE-000030",
+      "type": "HIGH_PROSPECTIVITY_REGION",
+      "key": "ice-prospectivity|sombench-ice-prospectivity-regression|patch_0004_0008_S_80S",
+      "firstCatalogued": "2026-09-17"
+    },
+    {
+      "id": "MM-ICE-000031",
+      "type": "HIGH_PROSPECTIVITY_REGION",
+      "key": "ice-prospectivity|sombench-ice-prospectivity-regression|patch_0005_0004_80N",
+      "firstCatalogued": "2026-09-17"
+    },
+    {
+      "id": "MM-ICE-000032",
+      "type": "HIGH_PROSPECTIVITY_REGION",
+      "key": "ice-prospectivity|sombench-ice-prospectivity-regression|patch_0005_0004_S_80S",
+      "firstCatalogued": "2026-09-17"
+    },
+    {
+      "id": "MM-ICE-000033",
+      "type": "HIGH_PROSPECTIVITY_REGION",
+      "key": "ice-prospectivity|sombench-ice-prospectivity-regression|patch_0006_0007_80N",
+      "firstCatalogued": "2026-09-17"
+    },
+    {
+      "id": "MM-ICE-000034",
+      "type": "HIGH_PROSPECTIVITY_REGION",
+      "key": "ice-prospectivity|sombench-ice-prospectivity-regression|patch_0007_0004_S_80S",
+      "firstCatalogued": "2026-09-17"
+    },
+    {
+      "id": "MM-ICE-000035",
+      "type": "HIGH_PROSPECTIVITY_REGION",
+      "key": "ice-prospectivity|sombench-ice-prospectivity-regression|patch_0008_0008_S_80S",
+      "firstCatalogued": "2026-09-17"
+    },
+    {
+      "id": "MM-ICE-000036",
+      "type": "HIGH_PROSPECTIVITY_REGION",
+      "key": "ice-prospectivity|sombench-ice-prospectivity-regression|patch_0000_0004_S_80S",
+      "firstCatalogued": "2026-09-17"
+    },
+    {
+      "id": "MM-ICE-000037",
+      "type": "HIGH_PROSPECTIVITY_REGION",
+      "key": "ice-prospectivity|sombench-ice-prospectivity-regression|patch_0002_0000_80N",
+      "firstCatalogued": "2026-09-17"
+    },
+    {
+      "id": "MM-ICE-000038",
+      "type": "HIGH_PROSPECTIVITY_REGION",
+      "key": "ice-prospectivity|sombench-ice-prospectivity-regression|patch_0002_0003_S_80S",
+      "firstCatalogued": "2026-09-17"
+    },
+    {
+      "id": "MM-ICE-000039",
+      "type": "HIGH_PROSPECTIVITY_REGION",
+      "key": "ice-prospectivity|sombench-ice-prospectivity-regression|patch_0004_0003_S_80S",
+      "firstCatalogued": "2026-09-17"
+    },
+    {
+      "id": "MM-ICE-000040",
+      "type": "HIGH_PROSPECTIVITY_REGION",
+      "key": "ice-prospectivity|sombench-ice-prospectivity-regression|patch_0005_0002_S_80S",
+      "firstCatalogued": "2026-09-17"
+    },
+    {
+      "id": "MM-ICE-000041",
+      "type": "HIGH_PROSPECTIVITY_REGION",
+      "key": "ice-prospectivity|sombench-ice-prospectivity-regression|patch_0006_0006_80N",
+      "firstCatalogued": "2026-09-17"
+    },
+    {
+      "id": "MM-ICE-000042",
+      "type": "HIGH_PROSPECTIVITY_REGION",
+      "key": "ice-prospectivity|sombench-ice-prospectivity-regression|patch_0007_0008_80N",
+      "firstCatalogued": "2026-09-17"
+    },
+    {
+      "id": "MM-ICE-000043",
+      "type": "HIGH_PROSPECTIVITY_REGION",
+      "key": "ice-prospectivity|sombench-ice-prospectivity-regression|patch_0008_0004_80N",
+      "firstCatalogued": "2026-09-17"
+    },
+    {
+      "id": "MM-ICE-000044",
+      "type": "HIGH_PROSPECTIVITY_REGION",
+      "key": "ice-prospectivity|sombench-ice-prospectivity-regression|patch_0008_0005_S_80S",
+      "firstCatalogued": "2026-09-17"
+    },
+    {
+      "id": "MM-IMP-000001",
+      "type": "IMP_CANDIDATE",
+      "key": "imp-segmentation|sombench-imp-segmentation|M1126915118RE.ech.cog__target_1980__idx_1980_p0_img.tif",
+      "firstCatalogued": "2026-09-17"
+    },
+    {
+      "id": "MM-IMP-000002",
+      "type": "IMP_CANDIDATE",
+      "key": "imp-segmentation|sombench-imp-segmentation|M1129261900LE.ech.cog__target_1980__idx_1980_p0_img.tif",
+      "firstCatalogued": "2026-09-17"
+    },
+    {
+      "id": "MM-IMP-000003",
+      "type": "IMP_CANDIDATE",
+      "key": "imp-segmentation|sombench-imp-segmentation|M1142616950RE.ech.cog__target_1790__idx_1790_p0_img.tif",
+      "firstCatalogued": "2026-09-17"
+    },
+    {
+      "id": "MM-IMP-000004",
+      "type": "IMP_CANDIDATE",
+      "key": "imp-segmentation|sombench-imp-segmentation|M1180292462RE.ech.cog__target_1009__idx_1009_p0_img.tif",
+      "firstCatalogued": "2026-09-17"
+    },
+    {
+      "id": "MM-IMP-000005",
+      "type": "IMP_CANDIDATE",
+      "key": "imp-segmentation|sombench-imp-segmentation|M1230913552LE.ech.cog__target_1008__idx_1008_p0_img.tif",
+      "firstCatalogued": "2026-09-17"
+    },
+    {
+      "id": "MM-IMP-000006",
+      "type": "IMP_CANDIDATE",
+      "key": "imp-segmentation|sombench-imp-segmentation|M1230913552LE.ech.cog__target_2020__idx_2020_p0_img.tif",
+      "firstCatalogued": "2026-09-17"
+    },
+    {
+      "id": "MM-IMP-000007",
+      "type": "IMP_CANDIDATE",
+      "key": "imp-segmentation|sombench-imp-segmentation|M1251674313RE.ech.cog__target_1989__idx_1989_p0_img.tif",
+      "firstCatalogued": "2026-09-17"
+    },
+    {
+      "id": "MM-IMP-000008",
+      "type": "IMP_CANDIDATE",
+      "key": "imp-segmentation|sombench-imp-segmentation|M1264611690RE.ech.cog__target_1989__idx_1989_p0_img.tif",
+      "firstCatalogued": "2026-09-17"
+    },
+    {
+      "id": "MM-IMP-000009",
+      "type": "IMP_CANDIDATE",
+      "key": "imp-segmentation|sombench-imp-segmentation|M1361354584RE.ech.cog__target_1778__idx_1778_p0_img.tif",
+      "firstCatalogued": "2026-09-17"
+    },
+    {
+      "id": "MM-IMP-000010",
+      "type": "IMP_CANDIDATE",
+      "key": "imp-segmentation|sombench-imp-segmentation|M188420978RE.ech.cog__target_1783__idx_1783_p0_img.tif",
+      "firstCatalogued": "2026-09-17"
+    },
+    {
+      "id": "MM-IMP-000011",
+      "type": "IMP_CANDIDATE",
+      "key": "imp-segmentation|sombench-imp-segmentation|M1132112685LE.ech.cog__target_1083__idx_1083_p0_img.tif",
+      "firstCatalogued": "2026-09-17"
+    },
+    {
+      "id": "MM-IMP-000012",
+      "type": "IMP_CANDIDATE",
+      "key": "imp-segmentation|sombench-imp-segmentation|M1165065681LE.ech.cog__target_198__idx_198_p0_img.tif",
+      "firstCatalogued": "2026-09-17"
+    },
+    {
+      "id": "MM-IMP-000013",
+      "type": "IMP_CANDIDATE",
+      "key": "imp-segmentation|sombench-imp-segmentation|M1182737038RE.ech.cog__target_1393__idx_1393_p0_img.tif",
+      "firstCatalogued": "2026-09-17"
+    },
+    {
+      "id": "MM-IMP-000014",
+      "type": "IMP_CANDIDATE",
+      "key": "imp-segmentation|sombench-imp-segmentation|M1184796081LE.ech.cog__target_2727__idx_2727_p0_img.tif",
+      "firstCatalogued": "2026-09-17"
+    },
+    {
+      "id": "MM-IMP-000015",
+      "type": "IMP_CANDIDATE",
+      "key": "imp-segmentation|sombench-imp-segmentation|M1195712331LE.ech.cog__target_3__idx_3_p0_img.tif",
+      "firstCatalogued": "2026-09-17"
+    },
+    {
+      "id": "MM-IMP-000016",
+      "type": "IMP_CANDIDATE",
+      "key": "imp-segmentation|sombench-imp-segmentation|M1215260707LE.ech.cog__target_891__idx_891_p0_img.tif",
+      "firstCatalogued": "2026-09-17"
+    },
+    {
+      "id": "MM-IMP-000017",
+      "type": "IMP_CANDIDATE",
+      "key": "imp-segmentation|sombench-imp-segmentation|M1215387396LE.ech.cog__target_2120__idx_2120_p0_img.tif",
+      "firstCatalogued": "2026-09-17"
+    },
+    {
+      "id": "MM-IMP-000018",
+      "type": "IMP_CANDIDATE",
+      "key": "imp-segmentation|sombench-imp-segmentation|M1245967286RE.ech.cog__target_2470__idx_2470_p0_img.tif",
+      "firstCatalogued": "2026-09-17"
+    },
+    {
+      "id": "MM-IMP-000019",
+      "type": "IMP_CANDIDATE",
+      "key": "imp-segmentation|sombench-imp-segmentation|M1304647080LE.ech.cog__target_2338__idx_2338_p0_img.tif",
+      "firstCatalogued": "2026-09-17"
+    },
+    {
+      "id": "MM-IMP-000020",
+      "type": "IMP_CANDIDATE",
+      "key": "imp-segmentation|sombench-imp-segmentation|M1310558453RE.ech.cog__target_2077__idx_2077_p0_img.tif",
+      "firstCatalogued": "2026-09-17"
+    },
+    {
+      "id": "MM-IMP-000021",
+      "type": "IMP_CANDIDATE",
+      "key": "imp-segmentation|sombench-imp-segmentation|M1335665373LE.ech.cog__target_1549__idx_1549_p0_img.tif",
+      "firstCatalogued": "2026-09-17"
+    },
+    {
+      "id": "MM-IMP-000022",
+      "type": "IMP_CANDIDATE",
+      "key": "imp-segmentation|sombench-imp-segmentation|M1421966045RE.ech.cog__target_1704__idx_1704_p0_img.tif",
+      "firstCatalogued": "2026-09-17"
+    },
+    {
+      "id": "MM-IMP-000023",
+      "type": "IMP_CANDIDATE",
+      "key": "imp-segmentation|sombench-imp-segmentation|M1437413144LE.ech.cog__target_2266__idx_2266_p0_img.tif",
+      "firstCatalogued": "2026-09-17"
+    },
+    {
+      "id": "MM-IMP-000024",
+      "type": "IMP_CANDIDATE",
+      "key": "imp-segmentation|sombench-imp-segmentation|M190823553RE.ech.cog__target_601__idx_601_p0_img.tif",
+      "firstCatalogued": "2026-09-17"
+    },
+    {
+      "id": "MM-IMP-000025",
+      "type": "IMP_CANDIDATE",
+      "key": "imp-segmentation|sombench-imp-segmentation|M1228233329RE.ech.cog__target_398__idx_398_p0_img.tif",
+      "firstCatalogued": "2026-09-17"
+    },
+    {
+      "id": "MM-IMP-000026",
+      "type": "IMP_CANDIDATE",
+      "key": "imp-segmentation|sombench-imp-segmentation|M1264724468RE.ech.cog__target_392__idx_392_p0_img.tif",
+      "firstCatalogued": "2026-09-17"
+    }
+  ]
+}

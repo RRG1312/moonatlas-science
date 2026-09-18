@@ -1,0 +1,52 @@
+name: Feature request
+description: Propose a new capability, dataset, model task or improvement
+labels: ["enhancement"]
+body:
+  - type: textarea
+    id: problem
+    attributes:
+      label: What problem does this solve
+    validations:
+      required: true
+  - type: dropdown
+    id: kind
+    attributes:
+      label: Kind of change
+      options:
+        - New lunar dataset or source
+        - New model task / checkpoint adapter
+        - Processing or normalization improvement
+        - Geospatial / projection improvement
+        - Validation or test coverage
+        - Performance or ergonomics
+        - Documentation
+    validations:
+      required: true
+  - type: textarea
+    id: proposal
+    attributes:
+      label: Proposed approach
+      description: Where it fits in the pipeline, what it changes in the contract, how it stays deterministic.
+    validations:
+      required: true
+  - type: textarea
+    id: sources
+    attributes:
+      label: Upstream sources involved
+      description: |
+        Official URL, licence, citation and the revision you would pin. State whether the data may be
+        redistributed or must be downloaded from upstream.
+  - type: textarea
+    id: impact
+    attributes:
+      label: Impact on published outputs
+      description: Does it change existing values? Does it need a processingVersion bump? Which tests prove it?
+  - type: checkboxes
+    id: constraints
+    attributes:
+      label: Constraints understood
+      options:
+        - label: This works with this repository alone (no application code is needed to build or test it)
+          required: true
+        - label: This does not commit checkpoints, upstream datasets or generated builds
+          required: true

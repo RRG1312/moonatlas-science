@@ -1,0 +1,60 @@
+{
+  "schemaVersion": "2",
+  "processingVersion": "science-0.3.0",
+  "files": {
+    "manifest.json": "build identity: processingVersion, schemaVersion, dataMode, generatedAt, counts",
+    "processing-manifest.json": "sha256 and size of every published file, plus the samples each task processed",
+    "sources.json": "every upstream source with licence, citation, pinned revision and whether MOONATLAS modified it",
+    "global-stats.json": "counts published verbatim by consumers; never recomputed downstream",
+    "crater-regions.json": "one analyzed WAC tile per entry: footprint, projection, grid, provenance, detection count",
+    "craters.json": "crater detections per region, as compact tuples expanded by the consumer",
+    "crater-tiles/<region>.json": "per-tile detail: predicted and reference boxes for the inspector",
+    "ice-sectors.json": "one analyzed polar patch per entry: raw statistics, rasters, anchor, provenance",
+    "ice-mosaics.json": "one seamless mosaic per pole in its native polar stereographic grid",
+    "imp-regions.json": "one analyzed NAC observation per entry: mask, predicted area, uncalibrated score, provenance",
+    "imp-observation-groups.json": "repeat observations of one SomBench target, grouped for navigation only",
+    "discoveries.json": "the curated subset, with the selection rule that produced each entry",
+    "previews/\u2026, overlays/\u2026": "display rasters and masks; never read back as measurements"
+  },
+  "provenanceFields": [
+    "task",
+    "sourceDataset",
+    "sourceTile",
+    "datasetSplit",
+    "model",
+    "checkpoint",
+    "modelRevision",
+    "referenceSource",
+    "processingVersion"
+  ],
+  "splits": {
+    "test": "held out",
+    "validation": "in-sample",
+    "train": "in-sample",
+    "external": "not part of a benchmark split"
+  },
+  "heldOutSplit": "test",
+  "idPrefixes": {
+    "crater-region": "wac-",
+    "ice-sector": "ice-",
+    "imp-region": "imp-",
+    "crater-discovery": "MM-CR-",
+    "ice-discovery": "MM-ICE-",
+    "imp-discovery": "MM-IMP-"
+  },
+  "syntheticMarkers": [
+    "mock-",
+    "MOCK",
+    "mock"
+  ],
+  "origins": {
+    "source_observation": "an upstream image, input layer or tile metadata",
+    "reference_annotation": "published expert or catalogue work, shown for comparison only",
+    "model_prediction": "MOONATLAS's own inference with a published NASA-IBM LFM checkpoint",
+    "derived_metric": "a MOONATLAS computation over the above, always labelled as derived"
+  },
+  "rasterLevels": {
+    "raw": "the model's own output, unclipped and unsmoothed, in its own units",
+    "display": "a clipped, colour-mapped representation for viewing"
+  }
+}

@@ -1,0 +1,34 @@
+{
+  "regionsAnalyzed": 3,
+  "craterRegions": 1,
+  "craterDetections": 76,
+  "polarPatchesAnalyzed": {
+    "north": 0,
+    "south": 1
+  },
+  "impTilesAnalyzed": 1,
+  "impObservationGroups": 1,
+  "impCandidates": 1,
+  "modelPredictions": 78,
+  "highInterestRegions": 1,
+  "discoveries": {
+    "total": 3,
+    "crater": 1,
+    "ice": 1,
+    "imp": 1,
+    "featured": 3
+  },
+  "predictionsBySplit": {
+    "train": 0,
+    "validation": 0,
+    "test": 3,
+    "external": 0
+  },
+  "referenceAnnotations": {
+    "craterBoxes": 95,
+    "iceMaps": 1,
+    "impMasks": 1
+  },
+  "datasets": 3,
+  "models": 3
+}

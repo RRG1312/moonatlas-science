@@ -1,0 +1,142 @@
+{
+  "processingVersion": "science-0.3.0",
+  "schemaVersion": "2",
+  "scope": "smoke",
+  "generatedAt": "2026-09-17T19:14:28Z",
+  "upstream": {
+    "url": "https://github.com/NASA-IMPACT/NASA-IBM-Lunar-Foundation-Model",
+    "commit": "56b09e146fde2dd006791dcc728f30cc12d6a6b7",
+    "backbone": {
+      "repo": "nasa-ibm-ai4science/NASA-IBM-Lunar-Foundation-Model",
+      "revision": "f29ade2b0b7273babb1ff581723816f99cb00996"
+    }
+  },
+  "environment": {
+    "torch": "2.12.1+cu130",
+    "torchvision": "0.27.1+cu130",
+    "terratorch": "1.2.13",
+    "lightning": "2.6.6",
+    "timm": "1.0.29",
+    "peft": "0.19.1",
+    "rasterio": "1.5.1",
+    "pyproj": "3.8.0",
+    "ni_lfm": "0.1.0"
+  },
+  "models": [
+    {
+      "sourceId": "lfm-crater-detection",
+      "repo": "nasa-ibm-ai4science/Crater-Detection-NASA-IBM-Lunar-Foundation-Model",
+      "revision": "f09ebeae2099c28f09bf4060f56d3e327a6192de",
+      "checkpoint": "WAC_ni_lfm_ps8_lora_s46.ckpt",
+      "checkpointSha256": "fab00e52e68237e84c10c5c392fbeb4fc5ea5a485b89c2513744d73b4190b1e0",
+      "config": "WAC_config.yaml",
+      "configSha256": "317f8b27361b5fa1c57ec6920502f50b5c571eec66d67c2c84d2f43986b6f7b1",
+      "strictLoad": true
+    },
+    {
+      "sourceId": "lfm-ice-prospectivity",
+      "repo": "nasa-ibm-ai4science/Ice-Prospectivity-NASA-IBM-Lunar-Foundation-Model",
+      "revision": "fb0510d0d676ae7bfae9acd88219b05449c769ee",
+      "checkpoint": "ni_lfm_ps8_all_modalities_s42.ckpt",
+      "checkpointSha256": "94a64dfe7e8c892dc687ef1eeea88044eb43b2b91263151532d7a68ac0d1bbee",
+      "config": "config.yaml",
+      "configSha256": "6d7a2523aea2059c30070c8e51789fb527d9328254c248eac9eb2199bbe68fe5",
+      "strictLoad": true
+    },
+    {
+      "sourceId": "lfm-imp-segmentation",
+      "repo": "nasa-ibm-ai4science/IMP-Segmentation-NASA-IBM-Lunar-Foundation-Model",
+      "revision": "10a09ffae35ef5712c40c2a1fc41ec82d4881ea6",
+      "checkpoint": "ni_lfm_ps8_frozen_s44.ckpt",
+      "checkpointSha256": "d6377b1ae33db8b4ac27454600630333d81469cb994937c8726465d29577fa24",
+      "config": "config.yaml",
+      "configSha256": "25fc34aba80af1b705dc95245cb5314c43d1dfeb80627a3125f7536cd067911e",
+      "strictLoad": true
+    }
+  ],
+  "datasets": [
+    {
+      "sourceId": "sombench-wac-crater-detection",
+      "repo": "nasa-ibm-ai4science/Sombench-WAC-Crater-Detection",
+      "revision": "20f800becb64a0c7ad314652a683f97f0281fe67"
+    },
+    {
+      "sourceId": "sombench-ice-prospectivity-regression",
+      "repo": "nasa-ibm-ai4science/Sombench-Ice-Prospectivity-Regression",
+      "revision": "78040503ceaa68107829f48114774112e8ee940d"
+    },
+    {
+      "sourceId": "sombench-imp-segmentation",
+      "repo": "nasa-ibm-ai4science/Sombench-IMP-Segmentation",
+      "revision": "1418851011f4b1d4fd8140a8d765b17fda86ebc0"
+    }
+  ],
+  "counts": {
+    "craterRegions": 1,
+    "craterDetections": 76,
+    "iceSectors": 1,
+    "iceMosaics": 1,
+    "impRegions": 1,
+    "impCandidates": 1,
+    "bySplit": {
+      "train": 0,
+      "validation": 0,
+      "test": 3,
+      "external": 0
+    }
+  },
+  "samples": {
+    "crater-detection": [
+      {
+        "id": "wac-m1174144247ce-r5360-c480",
+        "sample": "M1174144247CE_r5360_c480",
+        "split": "test",
+        "device": "NVIDIA GeForce RTX 4070 Ti SUPER",
+        "inferredAt": "2026-09-17T13:41:17+00:00"
+      }
+    ],
+    "ice-prospectivity": [
+      {
+        "id": "ice-s-0001-0002",
+        "sample": "patch_0001_0002_S_80S",
+        "split": "test",
+        "device": "NVIDIA GeForce RTX 4070 Ti SUPER",
+        "inferredAt": "2026-09-17T12:39:43+00:00"
+      }
+    ],
+    "imp-segmentation": [
+      {
+        "id": "imp-m1126915118re-t1980-i1980",
+        "sample": "M1126915118RE.ech.cog__target_1980__idx_1980_p0",
+        "split": "test",
+        "device": "NVIDIA GeForce RTX 4070 Ti SUPER",
+        "inferredAt": "2026-09-17T13:42:33+00:00"
+      }
+    ]
+  },
+  "checksums": {
+    "crater-regions.json": "3ba90a5bc70ef95dd71ebcbecbc47ffa56a60d768b469a9253541b161f82fd88",
+    "crater-tiles/wac-m1174144247ce-r5360-c480.json": "7fc066de675a9b9a439809b812be0ef4375be48f4b86392ea65a7b01de3d5845",
+    "craters.json": "cf35883f72368786b8ec6f71babdedffe829a02becb0abbcb8d902d41e3220da",
+    "discoveries.json": "367d1a45d8f827af9e7afc1c0e03bd502af0d7449de66843d3fa8e041a602f39",
+    "global-stats.json": "6613bab915dc6a0baff81ebf4e094081fce49cb0e1d0bd77bdf208cd0fe06c8c",
+    "ice-mosaics.json": "0da896abce5bb396f1aecafc57120e02e5a88b72248b2a01265ca7e3bce92b8a",
+    "ice-sectors.json": "afe4eefa3c3428e9874f25f00973f333b329fe8335e6eb522d6aa7bd256da950",
+    "imp-observation-groups.json": "5bb7a6afb4c81d6c9ab9899c0f26504cda7e468d986219a6c97cc8b89bf2c1c7",
+    "imp-regions.json": "00cff3bb187fdff047a39a64bcdb6fdbdde8c2dfb59ffda60c27b8fbce8e1182",
+    "manifest.json": "e33281b00c392e663d4d7432e8ee201cfabcb794faa593203df4c59acb6d87a4",
+    "overlays/ice/ice-mosaic-s-raw.webp": "dbedcc288a5998f77b80b6838f1ee793c12c68b04a574e3f5553e8c4874d072f",
+    "overlays/ice/ice-mosaic-s-reference-raw.webp": "1e2a24431f0e98ee07b4cc1b67f004350d0e0650ee0294670c967ecd31c250d5",
+    "overlays/ice/ice-mosaic-s-reference.webp": "092faef6f603e3322452964281ee9cb4995e8860521548cc26ec31801a90d9fe",
+    "overlays/ice/ice-mosaic-s.webp": "6276d1123a8ccab397f001e6ad05b489eced15cc409e313d8ec36de9d0716b99",
+    "overlays/ice/ice-s-0001-0002-raw.webp": "dbedcc288a5998f77b80b6838f1ee793c12c68b04a574e3f5553e8c4874d072f",
+    "overlays/ice/ice-s-0001-0002-reference-raw.webp": "1e2a24431f0e98ee07b4cc1b67f004350d0e0650ee0294670c967ecd31c250d5",
+    "overlays/ice/ice-s-0001-0002-reference.webp": "092faef6f603e3322452964281ee9cb4995e8860521548cc26ec31801a90d9fe",
+    "overlays/ice/ice-s-0001-0002.webp": "6276d1123a8ccab397f001e6ad05b489eced15cc409e313d8ec36de9d0716b99",
+    "overlays/imp/imp-m1126915118re-t1980-i1980-reference.webp": "3a0e6c7cca9981aa649dae31080feb75d84efa60bed4386a2a9e23de43c64322",
+    "overlays/imp/imp-m1126915118re-t1980-i1980.webp": "0532ca64825799536c4042a702aa49cee5f344e7e8bb94a3ed42b5b23a434a3e",
+    "previews/craters/wac-m1174144247ce-r5360-c480.webp": "2162d3d2cfa47732f8b136c0652ba7752519df6941ae0ac5b9c2ae8314756903",
+    "previews/imp/imp-m1126915118re-t1980-i1980.webp": "f87eed3fb1ce2d62ba99206e15fb6c99fd5715794ca71541199d9a561831c661",
+    "sources.json": "a415d2e9489be058f36e491a386476e37a0091630d90ad11f161301df83ac7ca"
+  }
+}

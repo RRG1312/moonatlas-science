@@ -1,0 +1,134 @@
+{
+  "generatedFrom": {
+    "example": "examples/science-smoke",
+    "processingVersion": "science-0.3.0"
+  },
+  "note": "Expected values produced by moonatlas_science.projection from each object's own published projection and grid. A consumer that reimplements the geometry must reproduce them.",
+  "pixelCentres": [
+    {
+      "objectId": "wac-m1174144247ce-r5360-c480",
+      "kind": "crater-region",
+      "col": 0,
+      "row": 0,
+      "latitude": -52.208816651,
+      "longitude": -170.360124699
+    },
+    {
+      "objectId": "wac-m1174144247ce-r5360-c480",
+      "kind": "crater-region",
+      "col": 256,
+      "row": 256,
+      "latitude": -53.155668954,
+      "longitude": -169.174392099
+    },
+    {
+      "objectId": "wac-m1174144247ce-r5360-c480",
+      "kind": "crater-region",
+      "col": 511,
+      "row": 511,
+      "latitude": -54.088935727,
+      "longitude": -167.940925518
+    },
+    {
+      "objectId": "imp-m1126915118re-t1980-i1980",
+      "kind": "imp-region",
+      "col": 0,
+      "row": 0,
+      "latitude": 4.34633215,
+      "longitude": 33.695416934
+    },
+    {
+      "objectId": "imp-m1126915118re-t1980-i1980",
+      "kind": "imp-region",
+      "col": 128,
+      "row": 128,
+      "latitude": 4.342099128,
+      "longitude": 33.699643135
+    },
+    {
+      "objectId": "imp-m1126915118re-t1980-i1980",
+      "kind": "imp-region",
+      "col": 255,
+      "row": 255,
+      "latitude": 4.337899172,
+      "longitude": 33.703836272
+    }
+  ],
+  "footprintContainment": [
+    {
+      "objectId": "wac-m1174144247ce-r5360-c480",
+      "kind": "crater-region",
+      "point": {
+        "latitude": -53.153829,
+        "longitude": -169.176758
+      },
+      "inside": true
+    },
+    {
+      "objectId": "wac-m1174144247ce-r5360-c480",
+      "kind": "crater-region",
+      "point": {
+        "latitude": -49.366345,
+        "longitude": -169.176758
+      },
+      "inside": false
+    },
+    {
+      "objectId": "wac-m1174144247ce-r5360-c480",
+      "kind": "crater-region",
+      "point": {
+        "latitude": -53.153829,
+        "longitude": -165.389274
+      },
+      "inside": false
+    },
+    {
+      "objectId": "imp-m1126915118re-t1980-i1980",
+      "kind": "imp-region",
+      "point": {
+        "latitude": 4.342116,
+        "longitude": 33.699627
+      },
+      "inside": true
+    },
+    {
+      "objectId": "imp-m1126915118re-t1980-i1980",
+      "kind": "imp-region",
+      "point": {
+        "latitude": 4.359048,
+        "longitude": 33.699627
+      },
+      "inside": false
+    },
+    {
+      "objectId": "imp-m1126915118re-t1980-i1980",
+      "kind": "imp-region",
+      "point": {
+        "latitude": 4.342116,
+        "longitude": 33.716559
+      },
+      "inside": false
+    }
+  ],
+  "rasterEncodings": [
+    {
+      "objectId": "ice-s-0001-0002",
+      "raster": "prediction.heatmap",
+      "encoding": {
+        "kind": "u16-rg-linear",
+        "offset": -0.06341193616390228,
+        "scale": 1.64667435602619e-05
+      },
+      "displayRange": [
+        0,
+        1
+      ],
+      "rawStats": {
+        "min": -0.063412,
+        "max": 1.015736,
+        "mean": 0.405557,
+        "p90": 0.837911
+      }
+    }
+  ]
+}

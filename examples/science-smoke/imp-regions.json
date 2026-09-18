@@ -1,0 +1,82 @@
+[
+  {
+    "id": "imp-m1126915118re-t1980-i1980",
+    "latitude": 4.342116,
+    "longitude": 33.699627,
+    "source": {
+      "nacProductId": "M1126915118RE",
+      "sizeM": 256.14,
+      "resolutionM": 1.0006,
+      "footprint": [
+        {
+          "latitude": 4.346349,
+          "longitude": 33.6954
+        },
+        {
+          "latitude": 4.34633,
+          "longitude": 33.703872
+        },
+        {
+          "latitude": 4.337883,
+          "longitude": 33.703853
+        },
+        {
+          "latitude": 4.337902,
+          "longitude": 33.695381
+        }
+      ],
+      "imagePath": "previews/imp/imp-m1126915118re-t1980-i1980.webp",
+      "projection": {
+        "kind": "transverse-mercator",
+        "latitudeOfOriginDeg": 0,
+        "centralMeridianDeg": 32,
+        "scaleFactor": 0.999,
+        "falseEastingM": 250000.0,
+        "falseNorthingM": 0.0,
+        "radiusM": 1737400.0
+      },
+      "grid": {
+        "xMinM": 301218.5,
+        "yMaxM": 131721.5,
+        "pixelSizeXM": 1.0,
+        "pixelSizeYM": 1.0,
+        "widthPx": 256,
+        "heightPx": 256
+      }
+    },
+    "prediction": {
+      "pixelCount": 9388,
+      "areaM2": 9398.6,
+      "pixelFraction": 0.1432,
+      "meanSoftmaxScore": 0.9104,
+      "centroid": {
+        "latitude": 4.343034,
+        "longitude": 33.698234
+      },
+      "maskPath": "overlays/imp/imp-m1126915118re-t1980-i1980.webp"
+    },
+    "reference": {
+      "pixelCount": 8961,
+      "areaM2": 8971.1,
+      "maskPath": "overlays/imp/imp-m1126915118re-t1980-i1980-reference.webp"
+    },
+    "derived": {
+      "iou": 0.6774,
+      "score": {
+        "value": 50.0,
+        "formula": "imp-area-rank-v1"
+      }
+    },
+    "provenance": {
+      "task": "imp-segmentation",
+      "sourceDataset": "sombench-imp-segmentation",
+      "sourceTile": "M1126915118RE.ech.cog__target_1980__idx_1980_p0_img.tif",
+      "datasetSplit": "test",
+      "model": "lfm-imp-segmentation",
+      "checkpoint": "ni_lfm_ps8_frozen_s44.ckpt",
+      "modelRevision": "10a09ffae35ef5712c40c2a1fc41ec82d4881ea6",
+      "referenceSource": "hargitai-2025",
+      "processingVersion": "science-0.3.0"
+    }
+  }
+]
